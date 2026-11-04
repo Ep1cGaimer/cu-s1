@@ -1,0 +1,260 @@
+{
+  "tools": [
+    "run_steps",
+    "windows",
+    "look"
+  ],
+  "runs": [
+    {
+      "scenario": 0,
+      "wall_ms": 6335.562799999025,
+      "actual_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 6300,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the purple star image.",
+            "status": "ok",
+            "action": "click(0.112,0.265)",
+            "decide_ms": 2976.3601000013296,
+            "act_ms": 11.548799986485392,
+            "verify_ms": 319.53819998307154,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Note text field.",
+            "status": "ok",
+            "action": "click(0.249,0.704)",
+            "decide_ms": 679.151099990122,
+            "act_ms": 9.824900014791638,
+            "verify_ms": 308.7684999918565,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 2,
+            "do": "Type: cedar-47",
+            "status": "ok",
+            "action": "type('cedar-47')",
+            "decide_ms": 0.0,
+            "act_ms": 13.98479999625124,
+            "verify_ms": 235.0589999987278,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 3,
+            "do": "Click 'Apply'.",
+            "status": "ok",
+            "action": "click(0.731,0.704)",
+            "decide_ms": 664.3961000081617,
+            "act_ms": 6.917299993801862,
+            "verify_ms": 824.2842999752611,
+            "attempts": 1,
+            "note": "",
+            "verified": true
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "select",
+          "value": "purple star",
+          "time": 184479.8083339
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "cedar-47",
+          "time": 184482.1404465
+        }
+      ]
+    },
+    {
+      "scenario": 1,
+      "wall_ms": 3884.968400001526,
+      "actual_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 3853,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the green triangle image.",
+            "status": "ok",
+            "action": "click(0.594,0.477)",
+            "decide_ms": 660.0473999860696,
+            "act_ms": 8.256000000983477,
+            "verify_ms": 312.4649999663234,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Note text field.",
+            "status": "ok",
+            "action": "click(0.289,0.757)",
+            "decide_ms": 666.5484000113793,
+            "act_ms": 9.198299987474456,
+            "verify_ms": 321.51510001858696,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 2,
+            "do": "Type: maple-83",
+            "status": "ok",
+            "action": "type('maple-83')",
+            "decide_ms": 0.0,
+            "act_ms": 8.074199984548613,
+            "verify_ms": 235.47620000317693,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 3,
+            "do": "Click 'Continue'.",
+            "status": "ok",
+            "action": "click(0.731,0.757)",
+            "decide_ms": 669.4103000045288,
+            "act_ms": 8.475000009639189,
+            "verify_ms": 843.8315999810584,
+            "attempts": 1,
+            "note": "",
+            "verified": true
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "select",
+          "value": "green triangle",
+          "time": 184483.7630145
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "maple-83",
+          "time": 184486.079289
+        }
+      ]
+    },
+    {
+      "scenario": 2,
+      "wall_ms": 4056.462200009264,
+      "actual_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 4028,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the red circle image.",
+            "status": "ok",
+            "action": "click(0.270,0.245)",
+            "decide_ms": 677.3798000067472,
+            "act_ms": 9.337700001196936,
+            "verify_ms": 315.68239998887293,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Note text field.",
+            "status": "ok",
+            "action": "click(0.285,0.704)",
+            "decide_ms": 670.3359000093769,
+            "act_ms": 11.356800008798018,
+            "verify_ms": 317.29369997628964,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 2,
+            "do": "Type: birch-26",
+            "status": "ok",
+            "action": "type('birch-26')",
+            "decide_ms": 0.0,
+            "act_ms": 7.616299990331754,
+            "verify_ms": 241.1969999957364,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 3,
+            "do": "Click 'Confirm'.",
+            "status": "ok",
+            "action": "click(0.731,0.704)",
+            "decide_ms": 681.9891999766696,
+            "act_ms": 11.246700014453381,
+            "verify_ms": 956.4164000039455,
+            "attempts": 1,
+            "note": "",
+            "verified": true
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "select",
+          "value": "red circle",
+          "time": 184487.727736
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "birch-26",
+          "time": 184490.0733585
+        }
+      ]
+    }
+  ],
+  "risky_gate": true,
+  "strict_confirmation": true,
+  "absent": {
+    "summary": {
+      "ok": false,
+      "completed": 0,
+      "total": 1,
+      "handback": "step 0 (\"Click the button labeled 'ZEBRA-9QX'.\") ended with handback: The instruction refers to a button labeled 'ZEBRA-9QX' which is not visible in the current screenshot. There are no elements labeled that, and the screen shows a different interface with a 'Visual task laboratory' and various shapes. Therefore, the instruction cannot be safely completed as the target is not present or actionable in the current view.",
+      "total_ms": 1148,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the button labeled 'ZEBRA-9QX'.",
+          "status": "handback",
+          "action": "handback",
+          "decide_ms": 1114.0979000192601,
+          "act_ms": 0.0,
+          "verify_ms": 0.0,
+          "attempts": 1,
+          "note": "The instruction refers to a button labeled 'ZEBRA-9QX' which is not visible in the current screenshot. There are no elements labeled that, and the screen shows a different interface with a 'Visual task laboratory' and various shapes. Therefore, the instruction cannot be safely completed as the target is not present or actionable in the current view.",
+          "verified": false
+        }
+      ]
+    },
+    "events": []
+  }
+}

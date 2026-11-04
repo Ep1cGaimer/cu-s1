@@ -1,0 +1,36 @@
+{
+  "backend": "built-in @oai/sky",
+  "accessibility_allowed": true,
+  "runs": [
+    {
+      "surface": "winforms",
+      "scenario": 0,
+      "wall_ms": 25875,
+      "tool_ms": 794,
+      "actions": 3,
+      "method": "accessibility set_value,click,click",
+      "observed_success": false,
+      "actual_success": true
+    },
+    {
+      "surface": "winforms",
+      "scenario": 1,
+      "wall_ms": 26622,
+      "tool_ms": 958,
+      "actions": 2,
+      "method": "scroll,accessibility click",
+      "observed_success": true,
+      "actual_success": true
+    },
+    {
+      "surface": "winforms",
+      "scenario": 2,
+      "wall_ms": 66476,
+      "tool_ms": 1698,
+      "actions": 4,
+      "method": "open owned dialog, failed click geometry, refresh, checkbox,confirm",
+      "observed_success": true,
+      "actual_success": true
+    }
+  ]
+}

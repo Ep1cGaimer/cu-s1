@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-04T12:59:47.799308+00:00",
+  "unit_tests": {
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+    "passed": 38,
+    "failed": 0
+  },
+  "dependency_check": "41 packages compatible",
+  "compileall": "src tests bench passed",
+  "mcp_protocol": "bench/runs/mcp-protocol-v6.json",
+  "live_comparison": "bench/runs/expanded-summary.json",
+  "static_current": "bench/runs/qwen-current-v6-grounding.json",
+  "source_sha256": {
+    "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+    "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+    "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+    "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+  }
+}

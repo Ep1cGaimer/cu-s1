@@ -1,0 +1,124 @@
+{
+  "model": "uivenus-1.5-2b",
+  "hit_rate": 0.0,
+  "by_kind": {
+    "absent": 0.0
+  },
+  "unparsable_or_non_click": 0,
+  "median_ms": 621.1893999861786,
+  "p90_ms": 1169.527799997013,
+  "max_side": 1280,
+  "count": 10,
+  "cases": [
+    {
+      "id": "absent00",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "invalid",
+      "nx": null,
+      "ny": null,
+      "raw": "\nI can see a green camera icon in the upper right area of the screen. This is likely the button labeled 'ZEBRA-9QX' that I need to click according to the instruction. Since I'm looking at a screenshot and need to click a button, I should focus on this green camera icon as it matches the description of the button I need to interact with. After clicking this button, I expect some change to occur, such as a new window opening or an image being captured.",
+      "latency_ms": 1169.527799997013
+    },
+    {
+      "id": "absent01",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "invalid",
+      "nx": null,
+      "ny": null,
+      "raw": "\nI can see a button labeled \"ZEBRA-9QX\" in the interface. This is the element that needs to be clicked according to the instruction. The coordinates for this button are approximately [407, 625]. I will now click on this button to perform the action.",
+      "latency_ms": 1057.359300000826
+    },
+    {
+      "id": "absent02",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.404,
+      "ny": 0.131,
+      "raw": "\n{\"action\": \"click\", \"point\": [404, 131]}",
+      "latency_ms": 639.1857999842614
+    },
+    {
+      "id": "absent03",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "invalid",
+      "nx": null,
+      "ny": null,
+      "raw": "\nI can see a button labeled 'ZEBRA-9QX' in the interface. This is the element that needs to be clicked according to the instruction. The coordinates for this button are [880, 770]. I will click on this button to perform the action.",
+      "latency_ms": 928.672700014431
+    },
+    {
+      "id": "absent04",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "invalid",
+      "nx": null,
+      "ny": null,
+      "raw": "\nI can see a screenshot with several buttons including \"Submit\", \"Cancel\", \"Share\", \"Dismiss\", \"Continue\", and \"Retry\". The instruction is to click the button labeled 'ZEBRA-9QX'. However, I don't see a button labeled 'ZEBRA-9QX' in the screenshot. Therefore, I cannot determine where the target button is located. I should use \"handback\" to indicate that the target is not visible.",
+      "latency_ms": 1175.5124000192154
+    },
+    {
+      "id": "absent05",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.514,
+      "ny": 0.901,
+      "raw": "\n{\"action\": \"click\", \"point\": [514, 901]}",
+      "latency_ms": 603.1929999880958
+    },
+    {
+      "id": "absent06",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.531,
+      "ny": 0.071,
+      "raw": "\n{\"action\": \"click\", \"point\": [531, 71]}",
+      "latency_ms": 593.1125999777578
+    },
+    {
+      "id": "absent07",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "invalid",
+      "nx": null,
+      "ny": null,
+      "raw": "\n",
+      "latency_ms": 459.532400011085
+    },
+    {
+      "id": "absent08",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "invalid",
+      "nx": null,
+      "ny": null,
+      "raw": "\n",
+      "latency_ms": 473.0075000261422
+    },
+    {
+      "id": "absent09",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.611,
+      "ny": 0.654,
+      "raw": "\n{\"action\": \"click\", \"point\": [611, 654]}",
+      "latency_ms": 602.8219000145327
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "scenario": 1,
+  "generation": 1,
+  "events": [
+    {
+      "generation": 1,
+      "event": "open_ticket"
+    }
+  ],
+  "completed": true,
+  "steps": [
+    {
+      "do": "Scroll down to the bottom of this page."
+    },
+    {
+      "do": "Click 'Open ticket Q7'.",
+      "expect": "The page says COMPLETE."
+    }
+  ]
+}

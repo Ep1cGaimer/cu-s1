@@ -1,0 +1,13 @@
+{
+  "installed_wheel_launch": true,
+  "health": {
+    "ok": true,
+    "product": "cu-s1",
+    "api_version": 1
+  },
+  "html_rendered": true,
+  "activity_api": true,
+  "cwd_outside_repository": true,
+  "runtime_override": true,
+  "wheel_sha256": "6d7747fa9709d1f117e576719e4a23cd11b84980e42a66993d670e843e464eb3"
+}

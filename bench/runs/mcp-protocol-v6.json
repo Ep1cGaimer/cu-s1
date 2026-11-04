@@ -1,0 +1,10 @@
+{
+  "tools": [
+    "run_steps",
+    "windows",
+    "look"
+  ],
+  "runs": [],
+  "risky_gate": true,
+  "strict_confirmation": true
+}

@@ -1,0 +1,212 @@
+{
+  "surface": "native",
+  "warmup_ms": 9306.429899996147,
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "wall_ms": 13916.464500012808,
+      "actual_success": true,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 3,
+        "total": 4,
+        "handback": "step 3 ('Click Commit.') ended with expect_failed: expected: The status says COMPLETE.",
+        "total_ms": 13899,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Project code text field.",
+            "status": "ok",
+            "action": "click(0.224,0.250)",
+            "decide_ms": 10408.73530000681,
+            "act_ms": 10.375799989560619,
+            "verify_ms": 535.5546000355389,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Type: NOVA-82",
+            "status": "ok",
+            "action": "type('NOVA-82')",
+            "decide_ms": 0.0,
+            "act_ms": 10.5061000213027,
+            "verify_ms": 224.64709999621846,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 2,
+            "do": "Check Enable previews.",
+            "status": "ok",
+            "action": "click(0.067,0.348)",
+            "decide_ms": 628.7830000219401,
+            "act_ms": 10.150799993425608,
+            "verify_ms": 414.5626999961678,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 3,
+            "do": "Click Commit.",
+            "status": "expect_failed",
+            "action": "click(0.144,0.475)",
+            "decide_ms": 637.6420999877155,
+            "act_ms": 8.40950000565499,
+            "verify_ms": 804.1357999900356,
+            "attempts": 1,
+            "note": "expected: The status says COMPLETE.",
+            "verified": false
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T09:15:35.8205619Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "N",
+          "time": "2026-11-04T09:15:36.3213558Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NO",
+          "time": "2026-11-04T09:15:36.3224595Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOV",
+          "time": "2026-11-04T09:15:36.3235405Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA",
+          "time": "2026-11-04T09:15:36.3260899Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-",
+          "time": "2026-11-04T09:15:36.3270899Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-8",
+          "time": "2026-11-04T09:15:36.3290893Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-82",
+          "time": "2026-11-04T09:15:36.3300954Z"
+        },
+        {
+          "event": "enable_previews",
+          "value": true,
+          "time": "2026-11-04T09:15:37.2834935Z"
+        },
+        {
+          "event": "commit",
+          "value": true,
+          "time": "2026-11-04T09:15:38.3643867Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "wall_ms": 2498.679100011941,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 2486,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down in the records pane until Approve R14 is visible.",
+            "status": "ok",
+            "action": "scroll(-20)",
+            "decide_ms": 691.8358000111766,
+            "act_ms": 19.713199988473207,
+            "verify_ms": 246.33229998289607,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click Approve R14.",
+            "status": "ok",
+            "action": "click(0.541,0.767)",
+            "decide_ms": 656.4521999971475,
+            "act_ms": 6.67909998446703,
+            "verify_ms": 785.1666000206023,
+            "attempts": 1,
+            "note": "",
+            "verified": true
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T09:15:39.1207683Z"
+        },
+        {
+          "event": "approve",
+          "value": "R14",
+          "time": "2026-11-04T09:15:41.3142449Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "wall_ms": 842.774399992777,
+      "actual_success": false,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 3,
+        "handback": "step 0 ('Click Review details.') ended with error: RuntimeError: Target lost focus, moved, resized, or became unavailable; reobserve before continuing",
+        "total_ms": 831,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review details.",
+            "status": "error",
+            "action": "click(0.155,0.285)",
+            "decide_ms": 646.9186999893282,
+            "act_ms": 7.70880002528429,
+            "verify_ms": 65.07070001680404,
+            "attempts": 1,
+            "note": "RuntimeError: Target lost focus, moved, resized, or became unavailable; reobserve before continuing",
+            "verified": false
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "review_details",
+          "value": null,
+          "time": "2026-11-04T09:15:43.1947292Z"
+        }
+      ],
+      "modal_open": true
+    }
+  ]
+}

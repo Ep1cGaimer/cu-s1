@@ -1,0 +1,214 @@
+{
+  "cases": [
+    {
+      "id": "case00",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [747, 255]}",
+      "ms": 2590.0977999845054
+    },
+    {
+      "id": "case01",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [75, 788]}",
+      "ms": 297.50300000887364
+    },
+    {
+      "id": "case02",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [408, 134]}",
+      "ms": 301.27949998131953
+    },
+    {
+      "id": "case03",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [551, 364]}",
+      "ms": 290.0633000244852
+    },
+    {
+      "id": "case04",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [208, 710]}",
+      "ms": 288.4450999845285
+    },
+    {
+      "id": "case05",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [484, 611]}",
+      "ms": 306.34680000366643
+    },
+    {
+      "id": "case06",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [64, 655]}",
+      "ms": 301.04589997790754
+    },
+    {
+      "id": "case07",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [97, 620]}",
+      "ms": 293.6213999928441
+    },
+    {
+      "id": "case08",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [210, 634]}",
+      "ms": 290.8219000091776
+    },
+    {
+      "id": "case09",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [194, 688]}",
+      "ms": 281.4421999792103
+    },
+    {
+      "id": "case10",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [222, 114]}",
+      "ms": 420.6568000081461
+    },
+    {
+      "id": "case11",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [654, 860]}",
+      "ms": 390.6416999816429
+    },
+    {
+      "id": "case12",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [945, 244]}",
+      "ms": 376.24280000454746
+    },
+    {
+      "id": "case13",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [451, 453]}",
+      "ms": 394.7613000054844
+    },
+    {
+      "id": "case14",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [724, 804]}",
+      "ms": 358.04510000161827
+    },
+    {
+      "id": "case15",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [725, 438]}",
+      "ms": 350.7161999878008
+    },
+    {
+      "id": "case16",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [767, 300]}",
+      "ms": 285.88770001078956
+    },
+    {
+      "id": "case17",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [276, 800]}",
+      "ms": 305.64800000865944
+    },
+    {
+      "id": "case18",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [632, 222]}",
+      "ms": 300.3366000193637
+    },
+    {
+      "id": "case19",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [144, 298]}",
+      "ms": 291.9883000140544
+    },
+    {
+      "id": "real00",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [607, 609]}",
+      "ms": 342.0619000098668
+    },
+    {
+      "id": "real01",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [550, 725]}",
+      "ms": 253.7941999908071
+    },
+    {
+      "id": "real04",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [656, 674]}",
+      "ms": 254.1497999918647
+    },
+    {
+      "id": "real05",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [550, 670]}",
+      "ms": 248.0665999755729
+    },
+    {
+      "id": "real06",
+      "hit": false,
+      "raw": "{\"action\": \"click\", \"point\": [699, 284]}",
+      "ms": 247.23989999620244
+    },
+    {
+      "id": "real07",
+      "hit": false,
+      "raw": "{\"action\": \"click\", \"point\": [699, 787]}",
+      "ms": 251.18009999278001
+    },
+    {
+      "id": "real08",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [75, 511]}",
+      "ms": 319.81529999757186
+    },
+    {
+      "id": "real09",
+      "hit": false,
+      "raw": "{\"action\": \"click\", \"point\": [388, 844]}",
+      "ms": 274.8401999997441
+    },
+    {
+      "id": "real10",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [67, 600]}",
+      "ms": 251.37609997182153
+    },
+    {
+      "id": "real11",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [984, 24] }",
+      "ms": 279.0433999907691
+    },
+    {
+      "id": "real12",
+      "hit": false,
+      "raw": "{\"action\": \"click\", \"point\": [874, 182]}",
+      "ms": 254.98460000380874
+    },
+    {
+      "id": "real13",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [477, 845]}",
+      "ms": 272.17680000467226
+    },
+    {
+      "id": "real14",
+      "hit": false,
+      "raw": "{\"action\": \"click\", \"point\": [645, 774]}",
+      "ms": 264.7575000009965
+    },
+    {
+      "id": "real15",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [85, 377]}",
+      "ms": 245.00939997960813
+    },
+    {
+      "id": "real17",
+      "hit": true,
+      "raw": "{\"action\": \"click\", \"point\": [477, 444]}",
+      "ms": 319.3846000067424
+    }
+  ]
+}

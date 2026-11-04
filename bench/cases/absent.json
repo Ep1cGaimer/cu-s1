@@ -1,0 +1,72 @@
+[
+  {
+    "id": "absent00",
+    "image": "case00.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent01",
+    "image": "case01.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent02",
+    "image": "case02.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent03",
+    "image": "case03.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent04",
+    "image": "case04.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent05",
+    "image": "case05.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent06",
+    "image": "case06.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent07",
+    "image": "case07.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent08",
+    "image": "case08.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  },
+  {
+    "id": "absent09",
+    "image": "case09.png",
+    "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+    "kind": "absent",
+    "absent": true
+  }
+]

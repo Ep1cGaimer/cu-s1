@@ -1,0 +1,1274 @@
+{
+  "model": "qwen3-vl:2b-instruct",
+  "manifest": "bench\\cases\\holdout-static\\manifest.json",
+  "scope": "Saved-image grounding plus real preflight; _execute mocked, no desktop capture/input or task completion claim.",
+  "source_sha256": {
+    "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\cu_s1\\doctor.py": "2a567e3dae3b28c5cc87a2e6e95b519141f4172231aa4c17699708b27e833b49",
+    "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+    "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+    "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+    "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+  },
+  "cases": [
+    {
+      "id": "holdout-static-00",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 3463.110999990022,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Kestrel.",
+        "status": "no_change",
+        "action": "click(0.188,0.384)",
+        "decide_ms": 3099.554900021758,
+        "act_ms": 0.05289999535307288,
+        "verify_ms": 361.85899999691173,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.188,
+          "ny": 0.384,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [188, 384]}",
+          "latency_ms": 3099.554900021758,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-01",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1084.0050000115298,
+      "decision": {
+        "i": 0,
+        "do": "Click the blue circle icon.",
+        "status": "no_change",
+        "action": "click(0.757,0.428)",
+        "decide_ms": 703.7039999850094,
+        "act_ms": 0.039399979868903756,
+        "verify_ms": 379.5492000353988,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.757,
+          "ny": 0.428,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [757, 428]}",
+          "latency_ms": 703.7039999850094,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-02",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1313.0905000143684,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Inspect Dovetail.",
+        "status": "no_change",
+        "action": "click(0.755,0.574)",
+        "decide_ms": 732.9287999891676,
+        "act_ms": 0.04439998883754015,
+        "verify_ms": 462.9768999875523,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.755,
+          "ny": 0.574,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [755, 574]}",
+          "latency_ms": 732.9287999891676,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-03",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1239.3219999794383,
+      "decision": {
+        "i": 0,
+        "do": "Click the purple triangle icon.",
+        "status": "no_change",
+        "action": "click(0.250,0.644)",
+        "decide_ms": 779.0924000146333,
+        "act_ms": 0.0523999915458262,
+        "verify_ms": 459.68000002903864,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.25,
+          "ny": 0.644,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [250, 644]}",
+          "latency_ms": 779.0924000146333,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-04",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1143.7072000117041,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Saffron.",
+        "status": "no_change",
+        "action": "click(0.749,0.624)",
+        "decide_ms": 744.996200024616,
+        "act_ms": 0.05110001075081527,
+        "verify_ms": 398.1711000087671,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.749,
+          "ny": 0.624,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [749, 624]}",
+          "latency_ms": 744.996200024616,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-05",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1283.4451000089757,
+      "decision": {
+        "i": 0,
+        "do": "Click the purple triangle icon.",
+        "status": "no_change",
+        "action": "click(0.230,0.394)",
+        "decide_ms": 725.7762000081129,
+        "act_ms": 0.04349998198449612,
+        "verify_ms": 436.9670999585651,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.23,
+          "ny": 0.394,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [230, 394]}",
+          "latency_ms": 725.7762000081129,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-06",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1054.0043999790214,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Inspect Marigold.",
+        "status": "no_change",
+        "action": "click(0.731,0.414)",
+        "decide_ms": 700.492200005101,
+        "act_ms": 0.04189999890513718,
+        "verify_ms": 352.9676999896765,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.731,
+          "ny": 0.414,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [731, 414]}",
+          "latency_ms": 700.492200005101,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-07",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1149.7690999822225,
+      "decision": {
+        "i": 0,
+        "do": "Click the red hexagon icon.",
+        "status": "no_change",
+        "action": "click(0.755,0.544)",
+        "decide_ms": 755.0755999982357,
+        "act_ms": 0.04050001734867692,
+        "verify_ms": 394.20070001506247,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.755,
+          "ny": 0.544,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [755, 544]}",
+          "latency_ms": 755.0755999982357,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-08",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1343.5429999954067,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Inspect Dovetail.",
+        "status": "no_change",
+        "action": "click(0.755,0.611)",
+        "decide_ms": 766.7138999968302,
+        "act_ms": 0.04260000423528254,
+        "verify_ms": 458.78250000532717,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.755,
+          "ny": 0.611,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [755, 611]}",
+          "latency_ms": 766.7138999968302,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-09",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1040.5133999884129,
+      "decision": {
+        "i": 0,
+        "do": "Click the orange square icon.",
+        "status": "no_change",
+        "action": "click(0.512,0.370)",
+        "decide_ms": 704.9321999948006,
+        "act_ms": 0.042800005758181214,
+        "verify_ms": 335.0728999939747,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.512,
+          "ny": 0.37,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [512, 370]}",
+          "latency_ms": 704.9321999948006,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-10",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1062.3825999791734,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Review Bracken.",
+        "status": "no_change",
+        "action": "click(0.451,0.544)",
+        "decide_ms": 698.9521000068635,
+        "act_ms": 0.04119999357499182,
+        "verify_ms": 362.8261999692768,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.451,
+          "ny": 0.544,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [451, 544]}",
+          "latency_ms": 698.9521000068635,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-11",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1297.3669999919366,
+      "decision": {
+        "i": 0,
+        "do": "Click the blue circle icon.",
+        "status": "no_change",
+        "action": "click(0.762,0.464)",
+        "decide_ms": 695.7511999935377,
+        "act_ms": 0.03880000440403819,
+        "verify_ms": 491.15320001146756,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.762,
+          "ny": 0.464,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [762, 464]}",
+          "latency_ms": 695.7511999935377,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-12",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1024.6419000031892,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Thimble.",
+        "status": "no_change",
+        "action": "click(0.210,0.394)",
+        "decide_ms": 690.0397000135854,
+        "act_ms": 0.03359999391250312,
+        "verify_ms": 333.8893000036478,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.21,
+          "ny": 0.394,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [210, 394]}",
+          "latency_ms": 690.0397000135854,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-13",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1054.7799000050873,
+      "decision": {
+        "i": 0,
+        "do": "Click the orange square icon.",
+        "status": "no_change",
+        "action": "click(0.714,0.600)",
+        "decide_ms": 692.3775000032037,
+        "act_ms": 0.04299997817724943,
+        "verify_ms": 361.8631999997888,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.714,
+          "ny": 0.6,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [714, 600]}",
+          "latency_ms": 692.3775000032037,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-14",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1246.6112000111025,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Saffron.",
+        "status": "no_change",
+        "action": "click(0.234,0.438)",
+        "decide_ms": 721.2734000058845,
+        "act_ms": 0.04549999721348286,
+        "verify_ms": 414.9932000145782,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.234,
+          "ny": 0.438,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [234, 438]}",
+          "latency_ms": 721.2734000058845,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-15",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1017.611899995245,
+      "decision": {
+        "i": 0,
+        "do": "Click the green diamond icon.",
+        "status": "no_change",
+        "action": "click(0.528,0.554)",
+        "decide_ms": 686.4814999862574,
+        "act_ms": 0.04260000423528254,
+        "verify_ms": 330.61539998743683,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.528,
+          "ny": 0.554,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [528, 554]}",
+          "latency_ms": 686.4814999862574,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-16",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1066.6473000019323,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Whimbrel.",
+        "status": "no_change",
+        "action": "click(0.249,0.604)",
+        "decide_ms": 701.874799997313,
+        "act_ms": 0.0337999954354018,
+        "verify_ms": 364.2431999905966,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.249,
+          "ny": 0.604,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [249, 604]}",
+          "latency_ms": 701.874799997313,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-17",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1282.663699996192,
+      "decision": {
+        "i": 0,
+        "do": "Click the blue circle icon.",
+        "status": "no_change",
+        "action": "click(0.500,0.574)",
+        "decide_ms": 699.8310000053607,
+        "act_ms": 0.0591999851167202,
+        "verify_ms": 471.2299000239,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.5,
+          "ny": 0.574,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [500, 574]}",
+          "latency_ms": 699.8310000053607,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-18",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 992.610200017225,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Whimbrel.",
+        "status": "no_change",
+        "action": "click(0.458,0.564)",
+        "decide_ms": 678.6238999920897,
+        "act_ms": 0.04369998350739479,
+        "verify_ms": 313.49240001873113,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.458,
+          "ny": 0.564,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [458, 564]}",
+          "latency_ms": 678.6238999920897,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-19",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1070.1737999916077,
+      "decision": {
+        "i": 0,
+        "do": "Click the green diamond icon.",
+        "status": "no_change",
+        "action": "click(0.488,0.600)",
+        "decide_ms": 694.5986000064295,
+        "act_ms": 0.05690002581104636,
+        "verify_ms": 375.07420001202263,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.488,
+          "ny": 0.6,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [488, 600]}",
+          "latency_ms": 694.5986000064295,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-20",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1258.326399984071,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Thimble.",
+        "status": "no_change",
+        "action": "click(0.520,0.444)",
+        "decide_ms": 717.4643999896944,
+        "act_ms": 0.04390001413412392,
+        "verify_ms": 429.9775999970734,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.52,
+          "ny": 0.444,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [520, 444]}",
+          "latency_ms": 717.4643999896944,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-21",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1022.7469999808818,
+      "decision": {
+        "i": 0,
+        "do": "Click the purple triangle icon.",
+        "status": "no_change",
+        "action": "click(0.210,0.574)",
+        "decide_ms": 687.7880999818444,
+        "act_ms": 0.03739999374374747,
+        "verify_ms": 334.3518000037875,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.21,
+          "ny": 0.574,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [210, 574]}",
+          "latency_ms": 687.7880999818444,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-22",
+      "kind": "positive_label",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1074.4035999814514,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Saffron.",
+        "status": "no_change",
+        "action": "click(0.194,0.384)",
+        "decide_ms": 694.9604999972507,
+        "act_ms": 0.04090002039447427,
+        "verify_ms": 378.9142000605352,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.194,
+          "ny": 0.384,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [194, 384]}",
+          "latency_ms": 694.9604999972507,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-23",
+      "kind": "positive_icon",
+      "expected_handback": false,
+      "correct": true,
+      "would_act": true,
+      "wall_ms": 1230.9980999852996,
+      "decision": {
+        "i": 0,
+        "do": "Click the blue circle icon.",
+        "status": "no_change",
+        "action": "click(0.758,0.544)",
+        "decide_ms": 706.0068999999203,
+        "act_ms": 0.04640000406652689,
+        "verify_ms": 414.35060001094826,
+        "attempts": 1,
+        "note": "screen did not change after the action; input may have occurred",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": [
+        {
+          "kind": "click",
+          "nx": 0.758,
+          "ny": 0.544,
+          "text": null,
+          "keys": null,
+          "dy": 0,
+          "raw": "{\"action\": \"click\", \"point\": [758, 544]}",
+          "latency_ms": 706.0068999999203,
+          "extra": {}
+        }
+      ]
+    },
+    {
+      "id": "holdout-static-24",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 969.1370000073221,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Inspect Umber.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 968.6974000069313,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Inspect Umber' is not visible in the current screenshot. It appears that the instruction is to click on a button that is not present in the image provided, so the task cannot be completed as the target is not visible.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-25",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1041.812299983576,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Tern.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 1041.2761000043247,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Open Tern' is not visible in the current screenshot. It appears that the available buttons in the collection workspace do not include 'Open Tern'. Therefore, the instruction cannot be safely completed as the target is not present in the current view.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-26",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 987.5691000197548,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Review Snowdrop.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 951.0550999839325,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Review Snowdrop' is not visible in the current screenshot. It appears that the button is not present in the displayed options, so the instruction cannot be safely completed at this time.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-27",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 997.1886000130326,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Yarrow.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 996.5247999934945,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'View Yarrow' is not visible in the current screenshot. It appears that the button is not present in the displayed options, so the instruction cannot be safely completed. Therefore, the action is to hand back the request.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-28",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 947.0965000218712,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Inspect Mallow.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 946.2667999905534,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Inspect Mallow' is not visible in the current screenshot. It appears that the instruction is not feasible with the provided image as it does not contain the button labeled 'Inspect Mallow'.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-29",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1040.8405999769457,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Redwing.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 1003.1462000042666,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Open Redwing' is not visible in the current screenshot. It is not present in the list of available controls shown. Therefore, the instruction cannot be safely completed as the target is not available on the screen.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-30",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1040.884999994887,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Review Nettle.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 1039.346299978206,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Review Nettle' is not visible in the current screenshot. It appears that the available controls listed in the image do not include 'Review Nettle'. Therefore, the instruction cannot be safely completed as the target is not present in the provided image.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-31",
+      "kind": "absent_label",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1053.5544999875128,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Osprey.",
+        "status": "handback",
+        "action": "click(0.771,0.614)",
+        "decide_ms": 722.8765999898314,
+        "act_ms": 0.0,
+        "verify_ms": 330.0831999804359,
+        "attempts": 1,
+        "note": "visual preflight could not confirm the requested target",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-32",
+      "kind": "modal_blocked",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1111.0062999941874,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Saffron.",
+        "status": "handback",
+        "action": "click(0.260,0.457)",
+        "decide_ms": 707.3017999937292,
+        "act_ms": 0.0,
+        "verify_ms": 324.1906999901403,
+        "attempts": 1,
+        "note": "proposed pointer is outside the active visual work area or its bounds are uncertain",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.3,
+          0.325,
+          0.7,
+          0.675
+        ]
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-33",
+      "kind": "modal_blocked",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 934.1415999806486,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Whimbrel.",
+        "status": "handback",
+        "action": "handback",
+        "decide_ms": 933.1355000031181,
+        "act_ms": 0.0,
+        "verify_ms": 0.0,
+        "attempts": 1,
+        "note": "The button labeled 'Open Whimbrel' is not visible in the current screenshot. It appears to be a control that is not present in the visible area, so the instruction cannot be safely completed at this time.",
+        "verified": false,
+        "check_reply": "",
+        "active_region": null
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-34",
+      "kind": "disabled",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1069.7840999928303,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled View Saffron.",
+        "status": "handback",
+        "action": "click(0.711,0.655)",
+        "decide_ms": 719.9982000165619,
+        "act_ms": 0.0,
+        "verify_ms": 349.16600002907217,
+        "attempts": 1,
+        "note": "visual preflight could not confirm the requested target",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": []
+    },
+    {
+      "id": "holdout-static-35",
+      "kind": "disabled",
+      "expected_handback": true,
+      "correct": true,
+      "would_act": false,
+      "wall_ms": 1182.6681999955326,
+      "decision": {
+        "i": 0,
+        "do": "Click the button labeled Open Kestrel.",
+        "status": "handback",
+        "action": "click(0.512,0.444)",
+        "decide_ms": 720.6923000048846,
+        "act_ms": 0.0,
+        "verify_ms": 343.9483000256587,
+        "attempts": 1,
+        "note": "visual preflight could not confirm the requested target",
+        "verified": false,
+        "check_reply": "",
+        "active_region": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      },
+      "recorded_actions": []
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "scenario": 2,
+  "generation": 2,
+  "events": [
+    {
+      "generation": 2,
+      "event": "open_dialog"
+    },
+    {
+      "generation": 2,
+      "event": "confirm",
+      "checked": true
+    }
+  ],
+  "completed": true,
+  "steps": [
+    {
+      "do": "Click 'Review settings'."
+    },
+    {
+      "do": "Click the checkbox 'Enable image previews'."
+    },
+    {
+      "do": "Click 'Confirm settings'.",
+      "expect": "The page says COMPLETE."
+    }
+  ]
+}

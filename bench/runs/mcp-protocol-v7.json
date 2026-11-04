@@ -1,0 +1,10 @@
+{
+  "tools": [
+    "stop",
+    "run_steps",
+    "windows",
+    "look"
+  ],
+  "runs": [],
+  "idle_stop": true
+}

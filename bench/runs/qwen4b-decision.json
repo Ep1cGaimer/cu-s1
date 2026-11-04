@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-04T14:01:20.262254+00:00",
+  "model": "qwen3-vl:4b-instruct",
+  "ollama_residency": {
+    "models": [
+      {
+        "name": "qwen3-vl:4b-instruct",
+        "model": "qwen3-vl:4b-instruct",
+        "size": 3528898641,
+        "digest": "84f7ed8042fa7cdbd902f7dcb7d0370e032095047cc3244179f263b77b5bc318",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3vl",
+          "families": [
+            "qwen3vl",
+            "clip"
+          ],
+          "parameter_size": "4.0B",
+          "quantization_level": "Q4_K_M"
+        },
+        "expires_at": "2026-11-04T19:33:19.4569288+05:30",
+        "size_vram": 3528898641,
+        "context_length": 4096
+      }
+    ]
+  },
+  "gpu_total_mib_observed": 4399,
+  "gpu_capacity_mib": 8188,
+  "development_correct": 32,
+  "development_count": 35,
+  "median_prediction_ms": 1077.8849000053015,
+  "warmup_ms_excluded": 36239.17780001648,
+  "decision": "not promoted: fails frozen33of35 minimum; greater RAM and latency, no demonstrated advantage over2B high-resolution setting"
+}

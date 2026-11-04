@@ -1,0 +1,75 @@
+{
+  "grounding": [
+    {
+      "name": "Qwen3-VL 2B instruct / Ollama",
+      "source": "qwen-audited-json.json",
+      "correct": 32,
+      "count": 35,
+      "median_ms": 257.74850000743754,
+      "p90_ms": 656.2797999940813,
+      "failures": [
+        "real06",
+        "real09",
+        "real14"
+      ],
+      "hit_rate": 0.9142857142857143
+    },
+    {
+      "name": "GUI-Owl 1.5 2B Q4_K_M / llama.cpp CUDA",
+      "source": "guiowl-audited-json-1024.json",
+      "correct": 30,
+      "count": 35,
+      "median_ms": 591.0457000136375,
+      "p90_ms": 638.7722000072245,
+      "failures": [
+        "real05",
+        "real06",
+        "real09",
+        "real13",
+        "real14"
+      ],
+      "hit_rate": 0.8571428571428571
+    },
+    {
+      "name": "UI-Venus 1.5 2B Q4_K_M / llama.cpp CUDA",
+      "source": "uivenus-audited-json-1024.json",
+      "correct": 28,
+      "count": 35,
+      "median_ms": 463.58589999726973,
+      "p90_ms": 618.9728000026662,
+      "failures": [
+        "case02",
+        "case18",
+        "real06",
+        "real09",
+        "real12",
+        "real13",
+        "real14"
+      ],
+      "hit_rate": 0.8
+    }
+  ],
+  "builtin": {
+    "count": 3,
+    "successes": 3,
+    "median_ms": 28601,
+    "min_ms": 27321,
+    "max_ms": 30915
+  },
+  "local_mcp": {
+    "count": 3,
+    "successes": 3,
+    "median_ms": 4056.462200009264,
+    "min_ms": 3884.968400001526,
+    "max_ms": 6335.562799999025
+  },
+  "local_heldout": {
+    "count": 12,
+    "successes": 12,
+    "median_ms": 3698.233100003563,
+    "min_ms": 3636.237099999562,
+    "max_ms": 6073.36799998302
+  },
+  "observed_speedup": 7.0507251367792065,
+  "scope": "Three four-action native fixture tasks. Parent planning/prompt and setup time excluded for both; built-in wall includes parent model reasoning and tool orchestration. Not a universal computer-use ranking."
+}

@@ -1,0 +1,893 @@
+{
+  "model": "guiowl-1.5-2b",
+  "kind": "owl",
+  "source": "https://github.com/X-PLUG/MobileAgent/blob/main/Mobile-Agent-v3.5/grounding_and_kb/eval_grounding_benchmarks.py",
+  "system_prompt": "# Tools\n\nYou may call one or more functions to assist with the user query.\n\nYou are provided with function signatures within <tools></tools> XML tags:\n<tools>\n{\"type\": \"function\", \"function\": {\"name\": \"computer_use\", \"description\": \"Use a mouse to interact with a computer.\\n* The screen's resolution is 1000x1000.\\n* Make sure to click any buttons, links, icons, etc with the cursor tip in the center of the element. Don't click boxes on their edges unless asked.\\n* don't use any other computer use tool like type, key, scroll, left_click_drag and so on.\\n* you can only use the left_click and mouse_move action to interact with the computer. if you can't find the element, you should terminate the task and report the failure.\", \"parameters\": {\"properties\": {\"action\": {\"description\": \"The action to perform. The available actions are:\\n* `mouse_move`: Move the cursor to a specified (x, y) pixel coordinate on the screen.\\n* `left_click`: Click the left mouse button with coordinate (x, y) pixel coordinate on the screen.\", \"enum\": [\"mouse_move\", \"left_click\"], \"type\": \"string\"}, \"coordinate\": {\"description\": \"(x, y): The x (pixels from the left edge) and y (pixels from the top edge) coordinates to move the mouse to. Required only by `action=mouse_move` and `action=left_click`.\", \"type\": \"array\"}}, \"required\": [\"action\"], \"type\": \"object\"}}}\n</tools>\n\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\n<tool_call>\n{\"name\": <function-name>, \"arguments\": <args-json-object>}\n</tool_call>\n\nAdditionally, if you think the task is infeasible (e.g., the task is not related to the image), return <tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"terminate\", \"status\": \"failure\"}}\n</tool_call>",
+  "user_prompt_template": "{instruction}",
+  "coordinate_scale": 1000,
+  "input_max_side": 1280,
+  "temperature": 0,
+  "max_tokens": 128,
+  "manifest_sha256": "8a25f46af306cefbc444086adafddd184c9a43e76078491150f01b70eabd4e4f",
+  "harness_sha256": "4c00575c11cde272ee39abce0928c9197611c24befdd7e41aa12e19e9c0b2696",
+  "note": "Model-only grounding; llama.cpp image preprocessing and generation differ from author evaluation. Parse errors are failures, not refusals.",
+  "cases": [
+    {
+      "id": "case00",
+      "instruction": "Click the camera icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the camera icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [751, 256]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.751,
+        0.256
+      ],
+      "correct": true,
+      "latency_ms": 1061.98
+    },
+    {
+      "id": "case01",
+      "instruction": "Click the gear / settings icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the gear / settings icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [78, 792]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.078,
+        0.792
+      ],
+      "correct": true,
+      "latency_ms": 690.13
+    },
+    {
+      "id": "case02",
+      "instruction": "Click the envelope / mail icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the envelope / mail icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [402, 128]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.402,
+        0.128
+      ],
+      "correct": true,
+      "latency_ms": 755.46
+    },
+    {
+      "id": "case03",
+      "instruction": "Click the pencil / edit icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the pencil / edit icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [552, 362]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.552,
+        0.362
+      ],
+      "correct": true,
+      "latency_ms": 727.6
+    },
+    {
+      "id": "case04",
+      "instruction": "Click 'Retry'.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click 'Retry'.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [211, 712]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.211,
+        0.712
+      ],
+      "correct": true,
+      "latency_ms": 730.9
+    },
+    {
+      "id": "case05",
+      "instruction": "Click the magnifying glass / search icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the magnifying glass / search icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [484, 614]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.484,
+        0.614
+      ],
+      "correct": true,
+      "latency_ms": 728.48
+    },
+    {
+      "id": "case06",
+      "instruction": "Click the plus / add icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the plus / add icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [67, 652]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.067,
+        0.652
+      ],
+      "correct": true,
+      "latency_ms": 742.15
+    },
+    {
+      "id": "case07",
+      "instruction": "Click the plus / add icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the plus / add icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [98, 626]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.098,
+        0.626
+      ],
+      "correct": true,
+      "latency_ms": 711.75
+    },
+    {
+      "id": "case08",
+      "instruction": "Click the pencil / edit icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the pencil / edit icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [214, 638]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.214,
+        0.638
+      ],
+      "correct": true,
+      "latency_ms": 755.01
+    },
+    {
+      "id": "case09",
+      "instruction": "Click 'Archive'.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click 'Archive'.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [200, 684]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.2,
+        0.684
+      ],
+      "correct": true,
+      "latency_ms": 728.46
+    },
+    {
+      "id": "case10",
+      "instruction": "Click the camera icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the camera icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [222, 112]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.222,
+        0.112
+      ],
+      "correct": true,
+      "latency_ms": 777.64
+    },
+    {
+      "id": "case11",
+      "instruction": "Click the printer icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the printer icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [656, 872]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.656,
+        0.872
+      ],
+      "correct": true,
+      "latency_ms": 741.48
+    },
+    {
+      "id": "case12",
+      "instruction": "Click the trash can / delete icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the trash can / delete icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [943, 236]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.943,
+        0.236
+      ],
+      "correct": true,
+      "latency_ms": 741.29
+    },
+    {
+      "id": "case13",
+      "instruction": "Click the magnifying glass / search icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the magnifying glass / search icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [451, 452]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.451,
+        0.452
+      ],
+      "correct": true,
+      "latency_ms": 725.04
+    },
+    {
+      "id": "case14",
+      "instruction": "Click 'Export'.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click 'Export'.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [727, 806]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.727,
+        0.806
+      ],
+      "correct": true,
+      "latency_ms": 778.3
+    },
+    {
+      "id": "case15",
+      "instruction": "Click the folder icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the folder icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [727, 433]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.727,
+        0.433
+      ],
+      "correct": true,
+      "latency_ms": 783.82
+    },
+    {
+      "id": "case16",
+      "instruction": "Click the pencil / edit icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the pencil / edit icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [774, 298]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.774,
+        0.298
+      ],
+      "correct": true,
+      "latency_ms": 769.96
+    },
+    {
+      "id": "case17",
+      "instruction": "Click the folder icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the folder icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [277, 802]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.277,
+        0.802
+      ],
+      "correct": true,
+      "latency_ms": 814.0
+    },
+    {
+      "id": "case18",
+      "instruction": "Click the envelope / mail icon.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click the envelope / mail icon.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [634, 217]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.634,
+        0.217
+      ],
+      "correct": true,
+      "latency_ms": 714.28
+    },
+    {
+      "id": "case19",
+      "instruction": "Click 'Cancel'.",
+      "expected_action": "click",
+      "original_size": [
+        1280,
+        800
+      ],
+      "sent_size": [
+        1280,
+        800
+      ],
+      "prompt": "Click 'Cancel'.",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [147, 293]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.147,
+        0.293
+      ],
+      "correct": true,
+      "latency_ms": 748.73
+    },
+    {
+      "id": "real00",
+      "instruction": "Click 'Eight' (calculator, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Eight' (calculator, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [605, 621]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.605,
+        0.621
+      ],
+      "correct": true,
+      "latency_ms": 842.84
+    },
+    {
+      "id": "real01",
+      "instruction": "Click 'One' (calculator, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'One' (calculator, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [554, 734]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.554,
+        0.734
+      ],
+      "correct": true,
+      "latency_ms": 364.85
+    },
+    {
+      "id": "real04",
+      "instruction": "Click 'Six' (calculator, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Six' (calculator, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [658, 701]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.658,
+        0.701
+      ],
+      "correct": true,
+      "latency_ms": 376.78
+    },
+    {
+      "id": "real05",
+      "instruction": "Click 'Four' (calculator, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Four' (calculator, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [555, 731]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.555,
+        0.731
+      ],
+      "correct": false,
+      "latency_ms": 363.89
+    },
+    {
+      "id": "real06",
+      "instruction": "Click 'Memory subtract' (calculator, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Memory subtract' (calculator, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [708, 675]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.708,
+        0.675
+      ],
+      "correct": false,
+      "latency_ms": 350.41
+    },
+    {
+      "id": "real07",
+      "instruction": "Click 'Zero' (calculator, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Zero' (calculator, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [604, 793]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.604,
+        0.793
+      ],
+      "correct": true,
+      "latency_ms": 341.98
+    },
+    {
+      "id": "real08",
+      "instruction": "Click 'Time & language' (settings, item).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Time & language' (settings, item).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [74, 512]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.074,
+        0.512
+      ],
+      "correct": true,
+      "latency_ms": 736.18
+    },
+    {
+      "id": "real09",
+      "instruction": "Click 'Windows (light), 1 images' (settings, item).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Windows (light), 1 images' (settings, item).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [314, 186]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.314,
+        0.186
+      ],
+      "correct": false,
+      "latency_ms": 365.87
+    },
+    {
+      "id": "real10",
+      "instruction": "Click 'Accessibility' (settings, item).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Accessibility' (settings, item).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [72, 604]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.072,
+        0.604
+      ],
+      "correct": true,
+      "latency_ms": 336.28
+    },
+    {
+      "id": "real11",
+      "instruction": "Click 'Close Settings' (settings, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Close Settings' (settings, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [984, 22]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.984,
+        0.022
+      ],
+      "correct": true,
+      "latency_ms": 349.0
+    },
+    {
+      "id": "real12",
+      "instruction": "Click 'Windows Update' (settings, item).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Windows Update' (settings, item).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [867, 176]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.867,
+        0.176
+      ],
+      "correct": false,
+      "latency_ms": 361.82
+    },
+    {
+      "id": "real13",
+      "instruction": "Click 'Sunrise, 4 images' (settings, item).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Sunrise, 4 images' (settings, item).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"terminate\", \"status\": \"failure\"}}\n</tool_call>"
+      },
+      "action": "handback",
+      "point_normalized": null,
+      "correct": false,
+      "latency_ms": 293.71
+    },
+    {
+      "id": "real14",
+      "instruction": "Click 'Bluetooth' (settings, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Bluetooth' (settings, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [894, 786]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.894,
+        0.786
+      ],
+      "correct": true,
+      "latency_ms": 362.7
+    },
+    {
+      "id": "real15",
+      "instruction": "Click 'Personalization' (settings, item).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'Personalization' (settings, item).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [66, 376]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.066,
+        0.376
+      ],
+      "correct": true,
+      "latency_ms": 351.46
+    },
+    {
+      "id": "real17",
+      "instruction": "Click 'OK' (notepad, button).",
+      "expected_action": "click",
+      "original_size": [
+        1920,
+        1080
+      ],
+      "sent_size": [
+        1280,
+        720
+      ],
+      "prompt": "Click 'OK' (notepad, button).",
+      "response": {
+        "role": "assistant",
+        "content": "<tool_call>\n{\"name\": \"computer_use\", \"arguments\": {\"action\": \"left_click\", \"coordinate\": [472, 447]}}\n</tool_call>"
+      },
+      "action": "point",
+      "point_normalized": [
+        0.472,
+        0.447
+      ],
+      "correct": true,
+      "latency_ms": 754.88
+    }
+  ],
+  "summary": {
+    "total": 35,
+    "correct": 30,
+    "errors": 0
+  }
+}

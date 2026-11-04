@@ -1,0 +1,468 @@
+{
+  "surface": "native",
+  "warmup_ms": 3043.9613000198733,
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "wall_ms": 6483.881899999687,
+      "actual_success": true,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 3,
+        "total": 4,
+        "handback": "step 3 ('Click Commit.') ended with expect_failed: expected: The status says COMPLETE.",
+        "total_ms": 6471,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Project code text field.",
+            "status": "ok",
+            "action": "click(0.224,0.250)",
+            "decide_ms": 2926.3330999820028,
+            "act_ms": 8.841900009429082,
+            "verify_ms": 533.7430999788921,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Type: NOVA-82",
+            "status": "ok",
+            "action": "type('NOVA-82')",
+            "decide_ms": 0.0,
+            "act_ms": 19.243800023104995,
+            "verify_ms": 240.33969998708926,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Check Enable previews.",
+            "status": "ok",
+            "action": "click(0.071,0.348)",
+            "decide_ms": 650.885000010021,
+            "act_ms": 11.119800008600578,
+            "verify_ms": 420.9545999765396,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 3,
+            "do": "Click Commit.",
+            "status": "expect_failed",
+            "action": "click(0.144,0.475)",
+            "decide_ms": 645.6856000004336,
+            "act_ms": 8.74580000527203,
+            "verify_ms": 808.1353000015952,
+            "attempts": 1,
+            "note": "expected: The status says COMPLETE.",
+            "verified": false,
+            "check_reply": "no"
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T09:22:15.4881649Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "N",
+          "time": "2026-11-04T09:22:15.9726157Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NO",
+          "time": "2026-11-04T09:22:15.9746154Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOV",
+          "time": "2026-11-04T09:22:15.9796440Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA",
+          "time": "2026-11-04T09:22:15.9826455Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-",
+          "time": "2026-11-04T09:22:15.9846439Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-8",
+          "time": "2026-11-04T09:22:15.9866456Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-82",
+          "time": "2026-11-04T09:22:15.9886455Z"
+        },
+        {
+          "event": "enable_previews",
+          "value": true,
+          "time": "2026-11-04T09:22:16.9902613Z"
+        },
+        {
+          "event": "commit",
+          "value": true,
+          "time": "2026-11-04T09:22:18.1011430Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "wall_ms": 748.313899995992,
+      "actual_success": false,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 2,
+        "handback": "step 0 ('Scroll down in the records pane until Approve R14 is visible.') ended with invalid_action: unsupported action",
+        "total_ms": 737,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down in the records pane until Approve R14 is visible.",
+            "status": "invalid_action",
+            "action": "invalid",
+            "decide_ms": 706.6677999973763,
+            "act_ms": 0.0,
+            "verify_ms": 0.0,
+            "attempts": 1,
+            "note": "unsupported action",
+            "verified": false,
+            "check_reply": ""
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T09:22:18.8520346Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "wall_ms": 3993.627599993488,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 3983,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review details.",
+            "status": "ok",
+            "action": "click(0.155,0.285)",
+            "decide_ms": 665.9743999771308,
+            "act_ms": 6.575099978363141,
+            "verify_ms": 647.2554000501987,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Check I reviewed the preview.",
+            "status": "ok",
+            "action": "click(0.101,0.270)",
+            "decide_ms": 695.2621999953408,
+            "act_ms": 8.940600004279986,
+            "verify_ms": 281.40750000602566,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Click Confirm.",
+            "status": "ok",
+            "action": "click(0.230,0.614)",
+            "decide_ms": 661.1401999834925,
+            "act_ms": 9.289400011766702,
+            "verify_ms": 919.8340000002645,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "review_details",
+          "value": null,
+          "time": "2026-11-04T09:22:21.1892800Z"
+        },
+        {
+          "event": "reviewed_preview",
+          "value": true,
+          "time": "2026-11-04T09:22:22.5589990Z"
+        },
+        {
+          "event": "confirm",
+          "value": true,
+          "time": "2026-11-04T09:22:23.5419066Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 0,
+      "repeat": 1,
+      "wall_ms": 3349.463599995943,
+      "actual_success": true,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 3,
+        "total": 4,
+        "handback": "step 3 ('Click Commit.') ended with expect_failed: expected: The status says COMPLETE.",
+        "total_ms": 3338,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Project code text field.",
+            "status": "ok",
+            "action": "click(0.224,0.250)",
+            "decide_ms": 264.2256999970414,
+            "act_ms": 6.680800026515499,
+            "verify_ms": 537.5921999802813,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Type: NOVA-82",
+            "status": "ok",
+            "action": "type('NOVA-82')",
+            "decide_ms": 0.0,
+            "act_ms": 13.36250000167638,
+            "verify_ms": 244.44929999299347,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Check Enable previews.",
+            "status": "ok",
+            "action": "click(0.071,0.348)",
+            "decide_ms": 261.17559999693185,
+            "act_ms": 11.447700002463534,
+            "verify_ms": 419.1921000019647,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 3,
+            "do": "Click Commit.",
+            "status": "expect_failed",
+            "action": "click(0.144,0.475)",
+            "decide_ms": 644.8863999976311,
+            "act_ms": 5.9917999897152185,
+            "verify_ms": 815.40390002192,
+            "attempts": 1,
+            "note": "expected: The status says COMPLETE.",
+            "verified": false,
+            "check_reply": "no"
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T09:22:25.1867151Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "N",
+          "time": "2026-11-04T09:22:25.6814127Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NO",
+          "time": "2026-11-04T09:22:25.6864422Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOV",
+          "time": "2026-11-04T09:22:25.6894486Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA",
+          "time": "2026-11-04T09:22:25.6914486Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-",
+          "time": "2026-11-04T09:22:25.6954474Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-8",
+          "time": "2026-11-04T09:22:25.6964476Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-82",
+          "time": "2026-11-04T09:22:25.6984489Z"
+        },
+        {
+          "event": "enable_previews",
+          "value": true,
+          "time": "2026-11-04T09:22:26.3195972Z"
+        },
+        {
+          "event": "commit",
+          "value": true,
+          "time": "2026-11-04T09:22:27.4087291Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "wall_ms": 416.08150000683963,
+      "actual_success": false,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 2,
+        "handback": "step 0 ('Scroll down in the records pane until Approve R14 is visible.') ended with invalid_action: unsupported action",
+        "total_ms": 403,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down in the records pane until Approve R14 is visible.",
+            "status": "invalid_action",
+            "action": "invalid",
+            "decide_ms": 364.31019997689873,
+            "act_ms": 0.0,
+            "verify_ms": 0.0,
+            "attempts": 1,
+            "note": "unsupported action",
+            "verified": false,
+            "check_reply": ""
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T09:22:28.1732519Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "wall_ms": 3869.5934000134002,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 3860,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review details.",
+            "status": "ok",
+            "action": "click(0.155,0.285)",
+            "decide_ms": 298.1040999875404,
+            "act_ms": 10.419300000648946,
+            "verify_ms": 624.0806000132579,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Check I reviewed the preview.",
+            "status": "ok",
+            "action": "click(0.087,0.268)",
+            "decide_ms": 650.9910000022501,
+            "act_ms": 10.168699984205887,
+            "verify_ms": 605.7973999995738,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Click Confirm.",
+            "status": "ok",
+            "action": "click(0.230,0.614)",
+            "decide_ms": 666.811900009634,
+            "act_ms": 10.092799988342449,
+            "verify_ms": 897.7864000189584,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "review_details",
+          "value": null,
+          "time": "2026-11-04T09:22:29.8393952Z"
+        },
+        {
+          "event": "reviewed_preview",
+          "value": true,
+          "time": "2026-11-04T09:22:31.1346387Z"
+        },
+        {
+          "event": "confirm",
+          "value": true,
+          "time": "2026-11-04T09:22:32.4453287Z"
+        }
+      ],
+      "modal_open": false
+    }
+  ]
+}

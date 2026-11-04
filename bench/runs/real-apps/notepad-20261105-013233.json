@@ -1,0 +1,45 @@
+{
+ "task": "notepad",
+ "hwnd": 1640556,
+ "steps": [
+  {
+   "do": "Click inside the large empty text editing area of Notepad"
+  },
+  {
+   "do": "Type: Standup 5 Nov - cu-s1 demo\nShip the hackathon build\nRecord the comparison video\n"
+  },
+  {
+   "do": "Press ctrl+s",
+   "expect": "The Notepad tab title shows note.txt"
+  }
+ ],
+ "wall_ms": 9118,
+ "summary": {
+  "ok": false,
+  "completed": 0,
+  "total": 3,
+  "handback": "step 0 ('Click inside the large empty text editing area of Notepad') ended with error: foreground changed",
+  "total_ms": 9094,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Click inside the large empty text editing area of Notepad",
+    "status": "error",
+    "action": "click(0.499,0.499)",
+    "decide_ms": 8587.524700007634,
+    "act_ms": 0.0,
+    "verify_ms": 341.511000005994,
+    "attempts": 1,
+    "note": "foreground changed",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ }
+}

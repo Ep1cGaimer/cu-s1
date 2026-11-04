@@ -1,0 +1,28 @@
+{
+  "backend": "built-in @oai/sky computer-use",
+  "model": "current chat model",
+  "method": "pixel-only, one action then fresh observation, full wall includes model and orchestration, tool_ms excludes model reasoning",
+  "runs": [
+    {
+      "scenario": 0,
+      "wall_ms": 27321,
+      "tool_ms": 1432,
+      "actions": 4,
+      "success": true
+    },
+    {
+      "scenario": 1,
+      "wall_ms": 28601,
+      "tool_ms": 934,
+      "actions": 4,
+      "success": true
+    },
+    {
+      "scenario": 2,
+      "wall_ms": 30915,
+      "tool_ms": 1023,
+      "actions": 4,
+      "success": true
+    }
+  ]
+}

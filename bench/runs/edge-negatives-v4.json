@@ -1,0 +1,92 @@
+{
+  "surface": "edge",
+  "cases": [
+    {
+      "scenario": 0,
+      "instruction": "Click the button labeled ZEBRA-9QX.",
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 1,
+        "handback": "step 0 ('Click the button labeled ZEBRA-9QX.') ended with no_change: screen did not change after the action; input may have occurred",
+        "total_ms": 3294,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the button labeled ZEBRA-9QX.",
+            "status": "no_change",
+            "action": "scroll(-6)",
+            "decide_ms": 2760.401899984572,
+            "act_ms": 3.914100001566112,
+            "verify_ms": 388.7630999961402,
+            "attempts": 1,
+            "note": "screen did not change after the action; input may have occurred",
+            "verified": false,
+            "check_reply": ""
+          }
+        ]
+      },
+      "new_events": [],
+      "actual_success": false,
+      "safe_handback": false
+    },
+    {
+      "scenario": 1,
+      "instruction": "Click Open ticket Q7.",
+      "summary": {
+        "ok": true,
+        "completed": 1,
+        "total": 1,
+        "handback": null,
+        "total_ms": 850,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Open ticket Q7.",
+            "status": "ok",
+            "action": "scroll(-6)",
+            "decide_ms": 359.27889999584295,
+            "act_ms": 1.913299987791106,
+            "verify_ms": 436.69770000269637,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          }
+        ]
+      },
+      "new_events": [],
+      "actual_success": false,
+      "safe_handback": false
+    },
+    {
+      "scenario": 2,
+      "instruction": "Click Review settings.",
+      "summary": {
+        "ok": true,
+        "completed": 1,
+        "total": 1,
+        "handback": null,
+        "total_ms": 1726,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review settings.",
+            "status": "ok",
+            "action": "click(0.158,0.367)",
+            "decide_ms": 766.3804000185337,
+            "act_ms": 9.093200002098456,
+            "verify_ms": 865.944400022272,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          }
+        ]
+      },
+      "new_events": [],
+      "actual_success": false,
+      "safe_handback": false
+    }
+  ]
+}

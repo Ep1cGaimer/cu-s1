@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+models/
+tools/
+bench/cases/real_*.png
+bench/last_frame.png
+bench/bin/
+bench/browser-profile/
+.runtime/
+dist/
+# private / generated
+graphify-out/
+AGENTS.md
+goal.md
+docs/meta-usage-story.md
+docs/submission-*.md
+.codex/
+*.err
+*.out
+bench/run_models.*
+.graphifyignore

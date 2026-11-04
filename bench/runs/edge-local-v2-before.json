@@ -1,0 +1,190 @@
+{
+  "surface": "edge",
+  "warmup_ms": 2741.4287999854423,
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "wall_ms": 6993.52910000016,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 6951,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the image of a blue line rising from left to right.",
+            "status": "ok",
+            "action": "click(0.184,0.315)",
+            "decide_ms": 3111.4050000032876,
+            "act_ms": 7.079400005750358,
+            "verify_ms": 342.6843000052031,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Label text field.",
+            "status": "ok",
+            "action": "click(0.270,0.468)",
+            "decide_ms": 769.7286000184249,
+            "act_ms": 11.016799981007352,
+            "verify_ms": 339.1123000183143,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 2,
+            "do": "Type: OAK-19",
+            "status": "ok",
+            "action": "type('OAK-19')",
+            "decide_ms": 0.0,
+            "act_ms": 8.169200009433553,
+            "verify_ms": 244.57099998835474,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 3,
+            "do": "Click 'Apply label'.",
+            "status": "ok",
+            "action": "click(0.149,0.558)",
+            "decide_ms": 786.3847000116948,
+            "act_ms": 11.201200017239898,
+            "verify_ms": 984.3162000179291,
+            "attempts": 1,
+            "note": "",
+            "verified": true
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 3,
+          "event": "select",
+          "value": "rise"
+        },
+        {
+          "generation": 3,
+          "event": "apply",
+          "selected": "rise",
+          "text": "OAK-19"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "wall_ms": 2526.498699997319,
+      "actual_success": false,
+      "claimed_success": false,
+      "summary": {
+        "ok": false,
+        "completed": 1,
+        "total": 2,
+        "handback": "step 1 (\"Click 'Open ticket Q7'.\") ended with handback: The instruction asks to click 'Open ticket Q7', but the screenshot shows a list of archived tickets labeled 'Archived ticket 1' through 'Archived ticket 7'. There is no ticket labeled 'Q7' visible in the list. Therefore, the instruction cannot be safely completed as the target is not present in the screenshot.",
+        "total_ms": 2484,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down to the bottom of this page.",
+            "status": "ok",
+            "action": "scroll(-1)",
+            "decide_ms": 804.8615000152495,
+            "act_ms": 0.4867000097874552,
+            "verify_ms": 361.82770002051257,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click 'Open ticket Q7'.",
+            "status": "handback",
+            "action": "handback",
+            "decide_ms": 1201.7347000073642,
+            "act_ms": 0.0,
+            "verify_ms": 0.0,
+            "attempts": 1,
+            "note": "The instruction asks to click 'Open ticket Q7', but the screenshot shows a list of archived tickets labeled 'Archived ticket 1' through 'Archived ticket 7'. There is no ticket labeled 'Q7' visible in the list. Therefore, the instruction cannot be safely completed as the target is not present in the screenshot.",
+            "verified": false
+          }
+        ]
+      },
+      "events": [],
+      "modal_open": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "wall_ms": 4284.9373999924865,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4246,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click 'Review settings'.",
+            "status": "ok",
+            "action": "click(0.164,0.367)",
+            "decide_ms": 771.3681999885011,
+            "act_ms": 9.278700017603114,
+            "verify_ms": 329.0976999560371,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 1,
+            "do": "Click the checkbox 'Enable image previews'.",
+            "status": "ok",
+            "action": "click(0.312,0.520)",
+            "decide_ms": 776.3993999978993,
+            "act_ms": 11.37279998511076,
+            "verify_ms": 346.16899996763095,
+            "attempts": 1,
+            "note": "",
+            "verified": false
+          },
+          {
+            "i": 2,
+            "do": "Click 'Confirm settings'.",
+            "status": "ok",
+            "action": "click(0.375,0.594)",
+            "decide_ms": 783.7666000123136,
+            "act_ms": 7.320200005779043,
+            "verify_ms": 969.148900010623,
+            "attempts": 1,
+            "note": "",
+            "verified": true
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 5,
+          "event": "open_dialog"
+        },
+        {
+          "generation": 5,
+          "event": "confirm",
+          "checked": true
+        }
+      ],
+      "modal_open": null
+    }
+  ]
+}

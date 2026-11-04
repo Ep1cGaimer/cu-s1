@@ -1,0 +1,410 @@
+[
+  {
+    "id": "holdout-static-00",
+    "image": "holdout-static/case-00.png",
+    "instruction": "Click the button labeled Open Kestrel.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      63,
+      196,
+      293,
+      292
+    ]
+  },
+  {
+    "id": "holdout-static-01",
+    "image": "holdout-static/case-01.png",
+    "instruction": "Click the blue circle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      823,
+      283,
+      1130,
+      403
+    ]
+  },
+  {
+    "id": "holdout-static-02",
+    "image": "holdout-static/case-02.png",
+    "instruction": "Click the button labeled Inspect Dovetail.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      1242,
+      536,
+      1703,
+      698
+    ]
+  },
+  {
+    "id": "holdout-static-03",
+    "image": "holdout-static/case-03.png",
+    "instruction": "Click the purple triangle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      130,
+      366,
+      360,
+      462
+    ]
+  },
+  {
+    "id": "holdout-static-04",
+    "image": "holdout-static/case-04.png",
+    "instruction": "Click the button labeled View Saffron.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      824,
+      436,
+      1131,
+      556
+    ]
+  },
+  {
+    "id": "holdout-static-05",
+    "image": "holdout-static/case-05.png",
+    "instruction": "Click the purple triangle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      210,
+      342,
+      671,
+      504
+    ]
+  },
+  {
+    "id": "holdout-static-06",
+    "image": "holdout-static/case-06.png",
+    "instruction": "Click the button labeled Inspect Marigold.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      603,
+      213,
+      833,
+      309
+    ]
+  },
+  {
+    "id": "holdout-static-07",
+    "image": "holdout-static/case-07.png",
+    "instruction": "Click the red hexagon icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      827,
+      375,
+      1134,
+      495
+    ]
+  },
+  {
+    "id": "holdout-static-08",
+    "image": "holdout-static/case-08.png",
+    "instruction": "Click the button labeled Inspect Dovetail.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      1269,
+      576,
+      1730,
+      738
+    ]
+  },
+  {
+    "id": "holdout-static-09",
+    "image": "holdout-static/case-09.png",
+    "instruction": "Click the orange square icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      378,
+      189,
+      608,
+      285
+    ]
+  },
+  {
+    "id": "holdout-static-10",
+    "image": "holdout-static/case-10.png",
+    "instruction": "Click the button labeled Review Bracken.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      430,
+      377,
+      737,
+      497
+    ]
+  },
+  {
+    "id": "holdout-static-11",
+    "image": "holdout-static/case-11.png",
+    "instruction": "Click the blue circle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      1240,
+      418,
+      1701,
+      580
+    ]
+  },
+  {
+    "id": "holdout-static-12",
+    "image": "holdout-static/case-12.png",
+    "instruction": "Click the button labeled View Thimble.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      83,
+      205,
+      313,
+      301
+    ]
+  },
+  {
+    "id": "holdout-static-13",
+    "image": "holdout-static/case-13.png",
+    "instruction": "Click the orange square icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      776,
+      414,
+      1083,
+      534
+    ]
+  },
+  {
+    "id": "holdout-static-14",
+    "image": "holdout-static/case-14.png",
+    "instruction": "Click the button labeled View Saffron.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      205,
+      389,
+      666,
+      551
+    ]
+  },
+  {
+    "id": "holdout-static-15",
+    "image": "holdout-static/case-15.png",
+    "instruction": "Click the green diamond icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      398,
+      303,
+      628,
+      399
+    ]
+  },
+  {
+    "id": "holdout-static-16",
+    "image": "holdout-static/case-16.png",
+    "instruction": "Click the button labeled Open Whimbrel.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      149,
+      424,
+      456,
+      544
+    ]
+  },
+  {
+    "id": "holdout-static-17",
+    "image": "holdout-static/case-17.png",
+    "instruction": "Click the blue circle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      737,
+      540,
+      1198,
+      702
+    ]
+  },
+  {
+    "id": "holdout-static-18",
+    "image": "holdout-static/case-18.png",
+    "instruction": "Click the button labeled Open Whimbrel.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      319,
+      310,
+      549,
+      406
+    ]
+  },
+  {
+    "id": "holdout-static-19",
+    "image": "holdout-static/case-19.png",
+    "instruction": "Click the green diamond icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      456,
+      412,
+      763,
+      532
+    ]
+  },
+  {
+    "id": "holdout-static-20",
+    "image": "holdout-static/case-20.png",
+    "instruction": "Click the button labeled View Thimble.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      783,
+      385,
+      1244,
+      547
+    ]
+  },
+  {
+    "id": "holdout-static-21",
+    "image": "holdout-static/case-21.png",
+    "instruction": "Click the purple triangle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      78,
+      324,
+      308,
+      420
+    ]
+  },
+  {
+    "id": "holdout-static-22",
+    "image": "holdout-static/case-22.png",
+    "instruction": "Click the button labeled View Saffron.",
+    "kind": "positive_label",
+    "expected_action": "click",
+    "bbox": [
+      87,
+      243,
+      394,
+      363
+    ]
+  },
+  {
+    "id": "holdout-static-23",
+    "image": "holdout-static/case-23.png",
+    "instruction": "Click the blue circle icon.",
+    "kind": "positive_icon",
+    "expected_action": "click",
+    "bbox": [
+      1244,
+      513,
+      1705,
+      675
+    ]
+  },
+  {
+    "id": "holdout-static-24",
+    "image": "holdout-static/case-24.png",
+    "instruction": "Click the button labeled Inspect Umber.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-25",
+    "image": "holdout-static/case-25.png",
+    "instruction": "Click the button labeled Open Tern.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-26",
+    "image": "holdout-static/case-26.png",
+    "instruction": "Click the button labeled Review Snowdrop.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-27",
+    "image": "holdout-static/case-27.png",
+    "instruction": "Click the button labeled View Yarrow.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-28",
+    "image": "holdout-static/case-28.png",
+    "instruction": "Click the button labeled Inspect Mallow.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-29",
+    "image": "holdout-static/case-29.png",
+    "instruction": "Click the button labeled Open Redwing.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-30",
+    "image": "holdout-static/case-30.png",
+    "instruction": "Click the button labeled Review Nettle.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-31",
+    "image": "holdout-static/case-31.png",
+    "instruction": "Click the button labeled View Osprey.",
+    "kind": "absent_label",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-32",
+    "image": "holdout-static/case-32.png",
+    "instruction": "Click the button labeled View Saffron.",
+    "kind": "modal_blocked",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-33",
+    "image": "holdout-static/case-33.png",
+    "instruction": "Click the button labeled Open Whimbrel.",
+    "kind": "modal_blocked",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-34",
+    "image": "holdout-static/case-34.png",
+    "instruction": "Click the button labeled View Saffron.",
+    "kind": "disabled",
+    "expected_action": "handback",
+    "absent": true
+  },
+  {
+    "id": "holdout-static-35",
+    "image": "holdout-static/case-35.png",
+    "instruction": "Click the button labeled Open Kestrel.",
+    "kind": "disabled",
+    "expected_action": "handback",
+    "absent": true
+  }
+]

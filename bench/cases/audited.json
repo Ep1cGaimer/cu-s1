@@ -1,0 +1,422 @@
+[
+  {
+    "id": "case00",
+    "image": "case00.png",
+    "instruction": "Click the camera icon.",
+    "bbox": [
+      925,
+      163,
+      1007,
+      245
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case01",
+    "image": "case01.png",
+    "instruction": "Click the gear / settings icon.",
+    "bbox": [
+      68,
+      607,
+      125,
+      664
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case02",
+    "image": "case02.png",
+    "instruction": "Click the envelope / mail icon.",
+    "bbox": [
+      491,
+      71,
+      554,
+      134
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case03",
+    "image": "case03.png",
+    "instruction": "Click the pencil / edit icon.",
+    "bbox": [
+      684,
+      264,
+      735,
+      315
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case04",
+    "image": "case04.png",
+    "instruction": "Click 'Retry'.",
+    "bbox": [
+      220,
+      555,
+      319,
+      589
+    ],
+    "kind": "unfamiliar-text"
+  },
+  {
+    "id": "case05",
+    "image": "case05.png",
+    "instruction": "Click the magnifying glass / search icon.",
+    "bbox": [
+      591,
+      459,
+      658,
+      526
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case06",
+    "image": "case06.png",
+    "instruction": "Click the plus / add icon.",
+    "bbox": [
+      46,
+      490,
+      118,
+      562
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case07",
+    "image": "case07.png",
+    "instruction": "Click the plus / add icon.",
+    "bbox": [
+      99,
+      476,
+      149,
+      526
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case08",
+    "image": "case08.png",
+    "instruction": "Click the pencil / edit icon.",
+    "bbox": [
+      241,
+      479,
+      303,
+      541
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case09",
+    "image": "case09.png",
+    "instruction": "Click 'Archive'.",
+    "bbox": [
+      189,
+      534,
+      316,
+      568
+    ],
+    "kind": "unfamiliar-text"
+  },
+  {
+    "id": "case10",
+    "image": "case10.png",
+    "instruction": "Click the camera icon.",
+    "bbox": [
+      249,
+      47,
+      324,
+      122
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case11",
+    "image": "case11.png",
+    "instruction": "Click the printer icon.",
+    "bbox": [
+      807,
+      662,
+      873,
+      728
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case12",
+    "image": "case12.png",
+    "instruction": "Click the trash can / delete icon.",
+    "bbox": [
+      1177,
+      159,
+      1249,
+      231
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case13",
+    "image": "case13.png",
+    "instruction": "Click the magnifying glass / search icon.",
+    "bbox": [
+      548,
+      333,
+      609,
+      394
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case14",
+    "image": "case14.png",
+    "instruction": "Click 'Export'.",
+    "bbox": [
+      884,
+      631,
+      990,
+      665
+    ],
+    "kind": "unfamiliar-text"
+  },
+  {
+    "id": "case15",
+    "image": "case15.png",
+    "instruction": "Click the folder icon.",
+    "bbox": [
+      901,
+      318,
+      965,
+      382
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case16",
+    "image": "case16.png",
+    "instruction": "Click the pencil / edit icon.",
+    "bbox": [
+      962,
+      217,
+      1011,
+      266
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case17",
+    "image": "case17.png",
+    "instruction": "Click the folder icon.",
+    "bbox": [
+      324,
+      613,
+      389,
+      678
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case18",
+    "image": "case18.png",
+    "instruction": "Click the envelope / mail icon.",
+    "bbox": [
+      775,
+      139,
+      847,
+      211
+    ],
+    "kind": "unfamiliar-icon"
+  },
+  {
+    "id": "case19",
+    "image": "case19.png",
+    "instruction": "Click 'Cancel'.",
+    "bbox": [
+      129,
+      219,
+      245,
+      253
+    ],
+    "kind": "unfamiliar-text"
+  },
+  {
+    "image": "real_calculator.png",
+    "instruction": "Click 'Eight' (calculator, button).",
+    "bbox": [
+      1108,
+      634,
+      1204,
+      697
+    ],
+    "kind": "real-app",
+    "id": "real00"
+  },
+  {
+    "image": "real_calculator.png",
+    "instruction": "Click 'One' (calculator, button).",
+    "bbox": [
+      1011,
+      766,
+      1107,
+      830
+    ],
+    "kind": "real-app",
+    "id": "real01"
+  },
+  {
+    "image": "real_calculator.png",
+    "instruction": "Click 'Six' (calculator, button).",
+    "bbox": [
+      1207,
+      701,
+      1303,
+      764
+    ],
+    "kind": "real-app",
+    "id": "real04"
+  },
+  {
+    "image": "real_calculator.png",
+    "instruction": "Click 'Four' (calculator, button).",
+    "bbox": [
+      1011,
+      701,
+      1107,
+      764
+    ],
+    "kind": "real-app",
+    "id": "real05"
+  },
+  {
+    "image": "real_calculator.png",
+    "instruction": "Click 'Memory subtract' (calculator, button).",
+    "bbox": [
+      1207,
+      461,
+      1270,
+      499
+    ],
+    "kind": "real-app",
+    "id": "real06"
+  },
+  {
+    "image": "real_calculator.png",
+    "instruction": "Click 'Zero' (calculator, button).",
+    "bbox": [
+      1108,
+      833,
+      1204,
+      896
+    ],
+    "kind": "real-app",
+    "id": "real07"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Time & language' (settings, item).",
+    "bbox": [
+      20,
+      530,
+      369,
+      575
+    ],
+    "kind": "real-app",
+    "id": "real08"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Windows (light), 1 images' (settings, item).",
+    "bbox": [
+      552,
+      770,
+      697,
+      887
+    ],
+    "kind": "real-app",
+    "id": "real09"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Accessibility' (settings, item).",
+    "bbox": [
+      20,
+      630,
+      369,
+      675
+    ],
+    "kind": "real-app",
+    "id": "real10"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Close Settings' (settings, button).",
+    "bbox": [
+      1863,
+      0,
+      1920,
+      40
+    ],
+    "kind": "real-app",
+    "id": "real11"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Windows Update' (settings, item).",
+    "bbox": [
+      20,
+      730,
+      369,
+      775
+    ],
+    "kind": "real-app",
+    "id": "real12"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Sunrise, 4 images' (settings, item).",
+    "bbox": [
+      852,
+      892,
+      997,
+      1009
+    ],
+    "kind": "real-app",
+    "id": "real13"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Bluetooth' (settings, button).",
+    "bbox": [
+      1652,
+      823,
+      1742,
+      874
+    ],
+    "kind": "real-app",
+    "id": "real14"
+  },
+  {
+    "image": "real_settings.png",
+    "instruction": "Click 'Personalization' (settings, item).",
+    "bbox": [
+      20,
+      380,
+      369,
+      425
+    ],
+    "kind": "real-app",
+    "id": "real15"
+  },
+  {
+    "image": "real_notepad.png",
+    "instruction": "Click 'OK' (notepad, button).",
+    "bbox": [
+      825,
+      461,
+      989,
+      501
+    ],
+    "kind": "real-app",
+    "id": "real17"
+  }
+]

@@ -1,0 +1,76 @@
+{
+ "scene": "explorer",
+ "target_hwnd": 2558394,
+ "steps": [
+  {
+   "do": "Press ctrl+shift+n"
+  },
+  {
+   "do": "Type: Q4 reports\n",
+   "expect": "A folder named Q4 reports is visible"
+  },
+  {
+   "do": "Double-click the Q4 reports folder",
+   "expect": "The Q4 reports folder is open and empty"
+  }
+ ],
+ "is_error": false,
+ "wall_ms": 5986,
+ "summary": {
+  "ok": true,
+  "completed": 3,
+  "total": 3,
+  "handback": null,
+  "total_ms": 5729,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Press ctrl+shift+n",
+    "status": "ok",
+    "action": "key(ctrl+shift+n)",
+    "decide_ms": 0.0,
+    "act_ms": 4.79010000708513,
+    "verify_ms": 360.2848000009544,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": null
+   },
+   {
+    "i": 1,
+    "do": "Type: Q4 reports\n",
+    "status": "ok",
+    "action": "type('Q4 reports\\n')",
+    "decide_ms": 0.0,
+    "act_ms": 14.394900004845113,
+    "verify_ms": 3481.728999991901,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": null
+   },
+   {
+    "i": 2,
+    "do": "Double-click the Q4 reports folder",
+    "status": "ok",
+    "action": "double_click(0.241,0.224)",
+    "decide_ms": 262.4726000067312,
+    "act_ms": 130.89460000628605,
+    "verify_ms": 1370.2636999660172,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ "video": "C:\\cu-s1-demo\\video\\explorer-014938.mp4"
+}

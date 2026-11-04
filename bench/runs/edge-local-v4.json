@@ -1,0 +1,402 @@
+{
+  "surface": "edge",
+  "warmup_ms": 2876.540400000522,
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "wall_ms": 8799.534299992956,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 8754,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the image of a blue line rising from left to right.",
+            "status": "ok",
+            "action": "click(0.180,0.315)",
+            "decide_ms": 3312.395499990089,
+            "act_ms": 8.26440000673756,
+            "verify_ms": 410.60420000576414,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Label text field.",
+            "status": "ok",
+            "action": "click(0.285,0.468)",
+            "decide_ms": 834.6583000093233,
+            "act_ms": 7.8640999854542315,
+            "verify_ms": 1090.9828000003472,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Type: OAK-19",
+            "status": "ok",
+            "action": "type('OAK-19')",
+            "decide_ms": 0.0,
+            "act_ms": 6.018399988533929,
+            "verify_ms": 564.1077999898698,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 3,
+            "do": "Click 'Apply label'.",
+            "status": "ok",
+            "action": "click(0.144,0.558)",
+            "decide_ms": 951.3950999826193,
+            "act_ms": 14.61439998820424,
+            "verify_ms": 1226.823900011368,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 12,
+          "event": "select",
+          "value": "rise"
+        },
+        {
+          "generation": 12,
+          "event": "apply",
+          "selected": "rise",
+          "text": "OAK-19"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "wall_ms": 3662.350600003265,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 3617,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down to the bottom of this page.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 968.1506999768317,
+            "act_ms": 17.293600016273558,
+            "verify_ms": 516.9069000112358,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Click 'Open ticket Q7'.",
+            "status": "ok",
+            "action": "click(0.124,0.835)",
+            "decide_ms": 833.4528999985196,
+            "act_ms": 15.150699997320771,
+            "verify_ms": 1098.2409000280313,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 13,
+          "event": "open_ticket"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "wall_ms": 5235.550000012154,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 5197,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click 'Review settings'.",
+            "status": "ok",
+            "action": "click(0.164,0.367)",
+            "decide_ms": 782.2349999914877,
+            "act_ms": 10.188399988692254,
+            "verify_ms": 727.9309000005014,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Click the checkbox 'Enable image previews'.",
+            "status": "ok",
+            "action": "click(0.310,0.520)",
+            "decide_ms": 789.7927000012714,
+            "act_ms": 10.192199988523498,
+            "verify_ms": 406.39630003715865,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Click 'Confirm settings'.",
+            "status": "ok",
+            "action": "click(0.375,0.595)",
+            "decide_ms": 777.2748999996111,
+            "act_ms": 10.64100000075996,
+            "verify_ms": 1440.5980000155978,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 14,
+          "event": "open_dialog"
+        },
+        {
+          "generation": 14,
+          "event": "confirm",
+          "checked": true
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 0,
+      "repeat": 1,
+      "wall_ms": 6205.904400005238,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 6168,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the image of a blue line rising from left to right.",
+            "status": "ok",
+            "action": "click(0.180,0.315)",
+            "decide_ms": 785.5262999946717,
+            "act_ms": 9.56369997584261,
+            "verify_ms": 748.0108999880031,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Label text field.",
+            "status": "ok",
+            "action": "click(0.270,0.468)",
+            "decide_ms": 774.5499000011478,
+            "act_ms": 11.367099999915808,
+            "verify_ms": 913.126800005557,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Type: OAK-19",
+            "status": "ok",
+            "action": "type('OAK-19')",
+            "decide_ms": 0.0,
+            "act_ms": 8.33559999591671,
+            "verify_ms": 421.2037999823224,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 3,
+            "do": "Click 'Apply label'.",
+            "status": "ok",
+            "action": "click(0.124,0.557)",
+            "decide_ms": 771.4406999875791,
+            "act_ms": 12.373499979730695,
+            "verify_ms": 1431.1908000090625,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 15,
+          "event": "select",
+          "value": "rise"
+        },
+        {
+          "generation": 15,
+          "event": "apply",
+          "selected": "rise",
+          "text": "OAK-19"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "wall_ms": 2323.4397000051104,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 2280,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down to the bottom of this page.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 361.642000003485,
+            "act_ms": 25.66129999468103,
+            "verify_ms": 415.23810001672246,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Click 'Open ticket Q7'.",
+            "status": "ok",
+            "action": "click(0.124,0.835)",
+            "decide_ms": 327.57299998775125,
+            "act_ms": 10.808099992573261,
+            "verify_ms": 1004.070499970112,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 16,
+          "event": "open_ticket"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "wall_ms": 4523.741200013319,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4484,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click 'Review settings'.",
+            "status": "ok",
+            "action": "click(0.164,0.367)",
+            "decide_ms": 322.1979000081774,
+            "act_ms": 8.345299982465804,
+            "verify_ms": 375.5575999675784,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 1,
+            "do": "Click the checkbox 'Enable image previews'.",
+            "status": "ok",
+            "action": "click(0.312,0.520)",
+            "decide_ms": 774.8059000005014,
+            "act_ms": 7.829100009985268,
+            "verify_ms": 923.4560999902897,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": ""
+          },
+          {
+            "i": 2,
+            "do": "Click 'Confirm settings'.",
+            "status": "ok",
+            "action": "click(0.378,0.594)",
+            "decide_ms": 778.1880000256933,
+            "act_ms": 11.21120000607334,
+            "verify_ms": 1032.7800000086427,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes"
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 17,
+          "event": "open_dialog"
+        },
+        {
+          "generation": 17,
+          "event": "confirm",
+          "checked": true
+        }
+      ],
+      "modal_open": null
+    }
+  ]
+}

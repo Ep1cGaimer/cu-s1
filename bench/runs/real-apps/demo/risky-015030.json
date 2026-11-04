@@ -1,0 +1,19 @@
+{
+ "scene": "risky",
+ "target_hwnd": 223087816,
+ "steps": [
+  {
+   "do": "Click the Log in link"
+  },
+  {
+   "do": "Click the Log in button",
+   "risky": true
+  }
+ ],
+ "is_error": true,
+ "wall_ms": 51,
+ "summary": {
+  "raw": "Error executing tool run_steps: Confirm each risky step before running"
+ },
+ "video": "C:\\cu-s1-demo\\video\\risky-015030.mp4"
+}

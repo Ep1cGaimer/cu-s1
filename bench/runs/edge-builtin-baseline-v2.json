@@ -1,0 +1,36 @@
+{
+  "backend": "built-in @oai/sky",
+  "accessibility_allowed": true,
+  "runs": [
+    {
+      "surface": "edge",
+      "scenario": 0,
+      "wall_ms": 31367,
+      "tool_ms": 718,
+      "actions": 3,
+      "method": "accessibility click,set_value,click",
+      "observed_success": true,
+      "actual_success": true
+    },
+    {
+      "surface": "edge",
+      "scenario": 1,
+      "wall_ms": 37885,
+      "tool_ms": 1802,
+      "actions": 3,
+      "method": "offscreen click rejected, scroll, accessibility click",
+      "observed_success": true,
+      "actual_success": true
+    },
+    {
+      "surface": "edge",
+      "scenario": 2,
+      "wall_ms": 25078,
+      "tool_ms": 1203,
+      "actions": 3,
+      "method": "accessibility clicks with 200ms settle",
+      "observed_success": true,
+      "actual_success": true
+    }
+  ]
+}

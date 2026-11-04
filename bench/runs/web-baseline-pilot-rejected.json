@@ -1,0 +1,6 @@
+{
+  "valid": false,
+  "reason": "Fixture inline onclick handler used event as a function name, conflicting with the browser event parameter; source fixed before official measurement.",
+  "elapsed_ms": 97254,
+  "tool_ms": 4188
+}

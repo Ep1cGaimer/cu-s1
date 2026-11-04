@@ -1,0 +1,51 @@
+{
+ "task": "calculator",
+ "hwnd": 20514852,
+ "steps": [
+  {
+   "do": "Type: 4250*18%="
+  },
+  {
+   "do": "Press ctrl+c",
+   "expect": "The calculator display shows 765"
+  }
+ ],
+ "wall_ms": 3593,
+ "summary": {
+  "ok": true,
+  "completed": 2,
+  "total": 2,
+  "handback": null,
+  "total_ms": 3582,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Type: 4250*18%=",
+    "status": "ok",
+    "action": "type('4250*18%=')",
+    "decide_ms": 0.0,
+    "act_ms": 5.257300013909116,
+    "verify_ms": 343.1103999901097,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": null
+   },
+   {
+    "i": 1,
+    "do": "Press ctrl+c",
+    "status": "ok",
+    "action": "key(ctrl+c)",
+    "decide_ms": 0.0,
+    "act_ms": 2.0923000120092183,
+    "verify_ms": 3102.5316000159364,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+claude-in-chrome wikipedia race: start 01:52:43.344 end 01:53:52.315 elapsed 69s; 7 screenshot-driven actions incl. 4 screenshots (Claude Opus via Claude in Chrome)

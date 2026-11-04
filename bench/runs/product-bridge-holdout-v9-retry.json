@@ -1,0 +1,33 @@
+{
+  "seeds": [
+    41,
+    57,
+    83
+  ],
+  "model": "qwen3-vl:2b-instruct",
+  "server_module": "cu_s1.bridge",
+  "source_sha256": {
+    "src/cu_s1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/cu_s1/app.py": "5eb79d1289d329b2f1e88f24a0236ae12d17991d3ae796acc5c124ba81d83139",
+    "src/cu_s1/bridge.py": "f9b8ec830ba4604dc35f80ea958373259e083d342249af05137d52272333ec51",
+    "src/cu_s1/doctor.py": "2a567e3dae3b28c5cc87a2e6e95b519141f4172231aa4c17699708b27e833b49",
+    "src/cu_s1/humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src/cu_s1/paths.py": "ddc75bcad690a3b1abd4a428b88ea7d16bad70c6fe1bd13f743a6bc8973401be",
+    "src/cu_s1/runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src/cu_s1/screen.py": "0fce599543a9fde93d992d4e9562e2b4bc2d6c1f8d2b52402c97e6ccabbb5611",
+    "src/cu_s1/server.py": "fefdc4fa915ded37974d7f8858269d33960648d27a4ccf461de9da5c11db573d",
+    "src/cu_s1/verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src/cu_s1/vlm.py": "0b440bbad585e0818e699f8e6ca13a31e58b101cd262006f79a8ed15cf624856",
+    "src/cu_s1/window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9",
+    "bench/holdout_fixture.py": "756ee67a7b64c8a57b6cb789d6e777f8fac09cbec79229545b11f24835b8d66c",
+    "bench/holdout_mcp.py": "5f789dcb101ec4151a86561a3db62967bdfe1e88245788177cca4e537b8d2877",
+    "pyproject.toml": "e4352f65ba08be021b33a2256c28a24686f203bdb53bd80f739f49fe9a0a9ab3"
+  },
+  "runs": [
+    {
+      "seed": 41,
+      "scenario": 0,
+      "error": "ExceptionGroup: unhandled errors in a TaskGroup (1 sub-exception)"
+    }
+  ]
+}

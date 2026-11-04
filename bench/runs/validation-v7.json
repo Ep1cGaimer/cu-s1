@@ -1,0 +1,29 @@
+{
+  "utc": "2026-11-04T14:07:01.489823+00:00",
+  "computer_use": "paused: no desktop capture/input or app operations",
+  "deadline_ist": "2026-11-04 20:00",
+  "unit_tests": 57,
+  "model_default": "qwen3-vl:2b-instruct",
+  "max_side_default": 1280,
+  "new_source_live_retest": "not performed while paused; historical v6 live results retained",
+  "source_sha256": {
+    "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\cu_s1\\doctor.py": "2a567e3dae3b28c5cc87a2e6e95b519141f4172231aa4c17699708b27e833b49",
+    "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src\\cu_s1\\screen.py": "0fce599543a9fde93d992d4e9562e2b4bc2d6c1f8d2b52402c97e6ccabbb5611",
+    "src\\cu_s1\\server.py": "fefdc4fa915ded37974d7f8858269d33960648d27a4ccf461de9da5c11db573d",
+    "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+    "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+  },
+  "protocol": "bench/runs/mcp-protocol-v7.json",
+  "static_holdout": "bench/runs/static-holdout-2b-v7-final.json",
+  "competition_decision": "docs/competitive-position.md",
+  "final_verified_utc": "2026-11-04T14:19:45.874342+00:00",
+  "protocol_cancellation": "bench/runs/mcp-cancellation-v7.json",
+  "dependencies": "41 installed packages compatible",
+  "compileall": "src tests bench passed",
+  "doctor": "backend available,2B available,vision supported; synthetic image accepted",
+  "doctor_synthetic_warmup_ms": 6412.6
+}

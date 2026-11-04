@@ -1,0 +1,10 @@
+# Merge this section into the desired Codex configuration after reviewing paths.
+# The example does not change global app configuration automatically.
+[mcp_servers.cu-s1]
+command = 'C:\Vivek_projects\computeruse\.venv\Scripts\python.exe'
+args = ["-m", "cu_s1.bridge"]
+cwd = 'C:\Vivek_projects\computeruse'
+
+[mcp_servers.cu-s1.env]
+CU_S1_MODEL = "qwen3-vl:2b-instruct"
+CU_S1_BACKEND = "ollama"

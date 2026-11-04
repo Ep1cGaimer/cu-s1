@@ -1,0 +1,110 @@
+{
+  "surface": "edge",
+  "cases": [
+    {
+      "scenario": 0,
+      "instruction": "Click the button labeled ZEBRA-9QX.",
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 1,
+        "handback": "step 0 ('Click the button labeled ZEBRA-9QX.') ended with handback: visual preflight could not confirm the requested target",
+        "total_ms": 3730,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the button labeled ZEBRA-9QX.",
+            "status": "handback",
+            "action": "click(0.151,0.600)",
+            "decide_ms": 3028.3939999935683,
+            "act_ms": 0.0,
+            "verify_ms": 395.0858999742195,
+            "attempts": 1,
+            "note": "visual preflight could not confirm the requested target",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "new_events": [],
+      "actual_success": false,
+      "safe_handback": true
+    },
+    {
+      "scenario": 1,
+      "instruction": "Click Open ticket Q7.",
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 1,
+        "handback": "step 0 ('Click Open ticket Q7.') ended with handback: visual preflight could not confirm the requested target",
+        "total_ms": 1492,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Open ticket Q7.",
+            "status": "handback",
+            "action": "click(0.198,0.404)",
+            "decide_ms": 932.1777000150178,
+            "act_ms": 0.0,
+            "verify_ms": 446.11540000187233,
+            "attempts": 1,
+            "note": "visual preflight could not confirm the requested target",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "new_events": [],
+      "actual_success": false,
+      "safe_handback": true
+    },
+    {
+      "scenario": 2,
+      "instruction": "Click Review settings.",
+      "summary": {
+        "ok": false,
+        "completed": 0,
+        "total": 1,
+        "handback": "step 0 ('Click Review settings.') ended with handback: proposed pointer is outside the active visual work area or its bounds are uncertain",
+        "total_ms": 1189,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review settings.",
+            "status": "handback",
+            "action": "click(0.160,0.367)",
+            "decide_ms": 777.9238999937661,
+            "act_ms": 0.0,
+            "verify_ms": 330.81420001690276,
+            "attempts": 1,
+            "note": "proposed pointer is outside the active visual work area or its bounds are uncertain",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.267,
+              0.375,
+              0.733,
+              0.665
+            ]
+          }
+        ]
+      },
+      "new_events": [],
+      "actual_success": false,
+      "safe_handback": true
+    }
+  ]
+}

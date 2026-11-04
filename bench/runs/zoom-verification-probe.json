@@ -1,0 +1,346 @@
+[
+  {
+    "id": "case00",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 2830.293699982576
+  },
+  {
+    "id": "case00",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 514.4481000024825
+  },
+  {
+    "id": "case00",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 139.93829998071305
+  },
+  {
+    "id": "case03",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 504.3031999957748
+  },
+  {
+    "id": "case03",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 491.3796999899205
+  },
+  {
+    "id": "case03",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 120.60220001148991
+  },
+  {
+    "id": "case06",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 505.39609999395907
+  },
+  {
+    "id": "case06",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 510.09580001118593
+  },
+  {
+    "id": "case06",
+    "kind": "absent",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 123.0509000015445
+  },
+  {
+    "id": "case09",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 509.51840000925586
+  },
+  {
+    "id": "case09",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 503.21329999133013
+  },
+  {
+    "id": "case09",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 135.36169999861158
+  },
+  {
+    "id": "case12",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 685.6700000062119
+  },
+  {
+    "id": "case12",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 504.04170001274906
+  },
+  {
+    "id": "case12",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 159.8359000054188
+  },
+  {
+    "id": "case15",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 597.7603000064846
+  },
+  {
+    "id": "case15",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 656.3503000070341
+  },
+  {
+    "id": "case15",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 216.52479999465868
+  },
+  {
+    "id": "case18",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 2793.8361999986228
+  },
+  {
+    "id": "case18",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 603.6668000160716
+  },
+  {
+    "id": "case18",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 150.75430000433698
+  },
+  {
+    "id": "real01",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 952.5097000005189
+  },
+  {
+    "id": "real01",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 569.2047000047751
+  },
+  {
+    "id": "real01",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 164.5256000047084
+  },
+  {
+    "id": "real06",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 525.3392000158783
+  },
+  {
+    "id": "real06",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 543.0676999967545
+  },
+  {
+    "id": "real06",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 168.20210000150837
+  },
+  {
+    "id": "real09",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 647.6166000065859
+  },
+  {
+    "id": "real09",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 608.6506999854464
+  },
+  {
+    "id": "real09",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 211.59110000007786
+  },
+  {
+    "id": "real12",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 534.2635000124574
+  },
+  {
+    "id": "real12",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 621.1726000183262
+  },
+  {
+    "id": "real12",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 232.9533000010997
+  },
+  {
+    "id": "real15",
+    "kind": "positive",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 718.0355000018608
+  },
+  {
+    "id": "real15",
+    "kind": "wrong_point",
+    "expected": false,
+    "answer": true,
+    "reply": "yes",
+    "ms": 550.5477999977302
+  },
+  {
+    "id": "real15",
+    "kind": "absent",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 185.3681999782566
+  },
+  {
+    "id": "native-local-v3-0-0.png",
+    "kind": "completion",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 389.3089000193868
+  },
+  {
+    "id": "native-local-v3-0-1.png",
+    "kind": "completion",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 267.9708999930881
+  },
+  {
+    "id": "native-local-v3-0-2.png",
+    "kind": "completion",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 775.1207000110298
+  },
+  {
+    "id": "edge-local-v3-0-0.png",
+    "kind": "completion",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 1147.2155000083148
+  },
+  {
+    "id": "edge-local-v3-0-1.png",
+    "kind": "completion",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 279.07809999305755
+  },
+  {
+    "id": "edge-local-v3-0-2.png",
+    "kind": "completion",
+    "expected": true,
+    "answer": true,
+    "reply": "yes",
+    "ms": 566.1086999753024
+  },
+  {
+    "id": "edge-local-v3-1-2.png",
+    "kind": "completion",
+    "expected": false,
+    "answer": false,
+    "reply": "no",
+    "ms": 250.62539998907596
+  }
+]

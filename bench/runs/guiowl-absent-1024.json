@@ -1,0 +1,124 @@
+{
+  "model": "guiowl-1.5-2b",
+  "hit_rate": 0.0,
+  "by_kind": {
+    "absent": 0.0
+  },
+  "unparsable_or_non_click": 0,
+  "median_ms": 606.733249995159,
+  "p90_ms": 713.4957000089344,
+  "max_side": 1280,
+  "count": 10,
+  "cases": [
+    {
+      "id": "absent00",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.752,
+      "ny": 0.252,
+      "raw": "{\"action\": \"click\", \"point\": [752, 252]}",
+      "latency_ms": 614.9318000243511
+    },
+    {
+      "id": "absent01",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.692,
+      "ny": 0.233,
+      "raw": "{\"action\": \"click\", \"point\": [692, 233]}",
+      "latency_ms": 595.6338999967556
+    },
+    {
+      "id": "absent02",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.102,
+      "ny": 0.806,
+      "raw": "{\"action\": \"click\", \"point\": [102, 806]}",
+      "latency_ms": 593.2445999933407
+    },
+    {
+      "id": "absent03",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.872,
+      "ny": 0.772,
+      "raw": "{\"action\": \"click\", \"point\": [872, 772]}",
+      "latency_ms": 597.6178999990225
+    },
+    {
+      "id": "absent04",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.754,
+      "ny": 0.444,
+      "raw": "{\"action\": \"click\", \"point\": [754, 444]}",
+      "latency_ms": 601.5067999833263
+    },
+    {
+      "id": "absent05",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.116,
+      "ny": 0.446,
+      "raw": "{\"action\": \"click\", \"point\": [116, 446]}",
+      "latency_ms": 611.9597000069916
+    },
+    {
+      "id": "absent06",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.536,
+      "ny": 0.072,
+      "raw": "{\"action\": \"click\", \"point\": [536, 72]}",
+      "latency_ms": 587.1882999781519
+    },
+    {
+      "id": "absent07",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.526,
+      "ny": 0.452,
+      "raw": "{\"action\": \"click\", \"point\": [526, 452]}",
+      "latency_ms": 679.4068999879528
+    },
+    {
+      "id": "absent08",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.198,
+      "ny": 0.252,
+      "raw": "{\"action\": \"click\", \"point\": [198, 252]}",
+      "latency_ms": 730.775400006678
+    },
+    {
+      "id": "absent09",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.618,
+      "ny": 0.648,
+      "raw": "{\"action\": \"click\", \"point\": [618, 648]}",
+      "latency_ms": 713.4957000089344
+    }
+  ]
+}

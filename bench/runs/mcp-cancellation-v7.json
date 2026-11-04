@@ -1,0 +1,8 @@
+{
+  "scope": "Actual stdio transport with synthetic target and runner; no desktop metadata/capture/input or model requests",
+  "concurrent_chain_rejected": true,
+  "stop_processed_during_running_chain": true,
+  "new_capture_blocked_after_stop": true,
+  "host_cancellation_signaled_worker": true,
+  "worker_cleanup_allows_next_chain": true
+}

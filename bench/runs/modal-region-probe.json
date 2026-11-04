@@ -1,0 +1,32 @@
+[
+  {
+    "image": "edge-local-v3-1-2.png",
+    "reply": "{\n  \"modal\": true,\n  \"box\": [275, 375, 725, 665]\n}",
+    "ms": 2779.1991000121925
+  },
+  {
+    "image": "edge-local-v4-0-0.png",
+    "reply": "{\n  \"modal\": false,\n  \"box\": [0, 0, 1000, 1000]\n}",
+    "ms": 349.0563999803271
+  },
+  {
+    "image": "edge-local-v4-0-1.png",
+    "reply": "{\n  \"modal\": false,\n  \"box\": [0, 0, 1000, 1000]\n}",
+    "ms": 736.3136000058148
+  },
+  {
+    "image": "native-local-v4-0-0.png",
+    "reply": "{\n  \"modal\": false,\n  \"box\": [0, 0, 1000, 1000]\n}",
+    "ms": 347.67460002331063
+  },
+  {
+    "image": "native-local-v4-0-1.png",
+    "reply": "{\n  \"modal\": false,\n  \"box\": [50, 248, 750, 800]\n}",
+    "ms": 352.8230999945663
+  },
+  {
+    "image": "native-local-v3-0-2.png",
+    "reply": "{\n  \"modal\": false,\n  \"box\": [0, 0, 1000, 1000]\n}",
+    "ms": 699.6208000055049
+  }
+]

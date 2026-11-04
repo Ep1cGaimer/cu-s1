@@ -1,0 +1,128 @@
+{
+  "scope": "Run steps button in actual browser dashboard; independent fixture state",
+  "job": {
+    "id": "kwPAYCiJpYcgN5BEq6xyGBoo",
+    "status": "completed",
+    "total": 4,
+    "steps": [
+      {
+        "do": "Click the blue diamond image.",
+        "expect": null,
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Click the Registration code text field.",
+        "expect": null,
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Type: cobalt-71",
+        "expect": null,
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Click Submit registration.",
+        "expect": "The status says COMPLETE.",
+        "risky": false,
+        "confirmed": false
+      }
+    ],
+    "stop_requested": false,
+    "summary": {
+      "ok": true,
+      "completed": 4,
+      "total": 4,
+      "handback": null,
+      "total_ms": 6341,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the blue diamond image.",
+          "status": "ok",
+          "action": "click(0.276,0.305)",
+          "decide_ms": 2457.8964000102133,
+          "act_ms": 4.443199984962121,
+          "verify_ms": 619.4224999926519,
+          "attempts": 1,
+          "note": "",
+          "verified": false,
+          "check_reply": "",
+          "active_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "i": 1,
+          "do": "Click the Registration code text field.",
+          "status": "ok",
+          "action": "click(0.238,0.614)",
+          "decide_ms": 500.5562999867834,
+          "act_ms": 7.084900018526241,
+          "verify_ms": 619.0406999958213,
+          "attempts": 1,
+          "note": "",
+          "verified": false,
+          "check_reply": "",
+          "active_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        },
+        {
+          "i": 2,
+          "do": "Type: cobalt-71",
+          "status": "ok",
+          "action": "type('cobalt-71')",
+          "decide_ms": 0.0,
+          "act_ms": 12.7241000009235,
+          "verify_ms": 259.2859000142198,
+          "attempts": 1,
+          "note": "",
+          "verified": false,
+          "check_reply": "",
+          "active_region": null
+        },
+        {
+          "i": 3,
+          "do": "Click Submit registration.",
+          "status": "ok",
+          "action": "click(0.614,0.624)",
+          "decide_ms": 670.4855000134557,
+          "act_ms": 2.0277999865356833,
+          "verify_ms": 1069.7419000207447,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": [
+            0.0,
+            0.0,
+            1.0,
+            1.0
+          ]
+        }
+      ]
+    }
+  },
+  "actual_success": true,
+  "events": [
+    {
+      "event": "select_symbol",
+      "value": "diamond",
+      "time": 1793818234.519244
+    },
+    {
+      "event": "submit",
+      "value": true,
+      "time": 1793818237.2522156
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "excluded_ids": [
+    "real02",
+    "real03",
+    "real16",
+    "real18",
+    "real19",
+    "real20",
+    "real21",
+    "real22",
+    "real23"
+  ],
+  "reason": "Disabled memory-clear/flyout controls; Notepad controls blocked by modal or invisible system menu",
+  "historical_count": 44,
+  "audited_count": 35
+}

@@ -1,0 +1,51 @@
+{
+ "task": "explorer",
+ "hwnd": 138807190,
+ "steps": [
+  {
+   "do": "Press ctrl+shift+n"
+  },
+  {
+   "do": "Type: reports\n",
+   "expect": "A folder named reports is visible"
+  }
+ ],
+ "wall_ms": 4093,
+ "summary": {
+  "ok": true,
+  "completed": 2,
+  "total": 2,
+  "handback": null,
+  "total_ms": 4049,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Press ctrl+shift+n",
+    "status": "ok",
+    "action": "key(ctrl+shift+n)",
+    "decide_ms": 0.0,
+    "act_ms": 3.0578000005334616,
+    "verify_ms": 302.31120000826195,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": null
+   },
+   {
+    "i": 1,
+    "do": "Type: reports\n",
+    "status": "ok",
+    "action": "type('reports\\n')",
+    "decide_ms": 0.0,
+    "act_ms": 51.519400003599,
+    "verify_ms": 3548.173300019698,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": null
+   }
+  ]
+ }
+}

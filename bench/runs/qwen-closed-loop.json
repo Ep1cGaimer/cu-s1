@@ -1,0 +1,617 @@
+{
+  "model": "qwen3-vl:2b-instruct",
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 11106.462399999145,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the purple star image.",
+          "status": "ok",
+          "action": "click(0.112,0.268)",
+          "decide_ms": 8233.539600012591,
+          "act_ms": 7.682199997361749,
+          "verify_ms": 215.2860999922268,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.246,0.704)",
+          "decide_ms": 672.8718000231311,
+          "act_ms": 6.7115999991074204,
+          "verify_ms": 209.8651999840513,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: cedar-47",
+          "status": "ok",
+          "action": "type('cedar-47')",
+          "decide_ms": 0.0,
+          "act_ms": 11.11210000817664,
+          "verify_ms": 206.11989998724312,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Apply'.",
+          "status": "ok",
+          "action": "click(0.731,0.704)",
+          "decide_ms": 653.7834999908227,
+          "act_ms": 8.019100001547486,
+          "verify_ms": 727.8476000064984,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "purple star",
+          "time": 182644.9876673
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "cedar-47",
+          "time": 182647.0109365
+        }
+      ]
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 3455.51189998514,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the green triangle image.",
+          "status": "ok",
+          "action": "click(0.600,0.477)",
+          "decide_ms": 665.0874000042677,
+          "act_ms": 6.689300003927201,
+          "verify_ms": 212.47759999823757,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.291,0.757)",
+          "decide_ms": 660.2201999921817,
+          "act_ms": 11.562900006538257,
+          "verify_ms": 213.73160000075586,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: maple-83",
+          "status": "ok",
+          "action": "type('maple-83')",
+          "decide_ms": 0.0,
+          "act_ms": 6.838200002675876,
+          "verify_ms": 212.7631999901496,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Continue'.",
+          "status": "ok",
+          "action": "click(0.728,0.754)",
+          "decide_ms": 656.7705000052229,
+          "act_ms": 8.925600006477907,
+          "verify_ms": 729.4707999972161,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "green triangle",
+          "time": 182648.4824455
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "maple-83",
+          "time": 182650.5199083
+        }
+      ]
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 3480.544199992437,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the red circle image.",
+          "status": "ok",
+          "action": "click(0.270,0.247)",
+          "decide_ms": 655.4176000063308,
+          "act_ms": 12.436799996066839,
+          "verify_ms": 221.12590001779608,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.280,0.704)",
+          "decide_ms": 679.1744000220206,
+          "act_ms": 10.400300001492724,
+          "verify_ms": 213.89169999747537,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: birch-26",
+          "status": "ok",
+          "action": "type('birch-26')",
+          "decide_ms": 0.0,
+          "act_ms": 9.361200005514547,
+          "verify_ms": 211.89610002329573,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Confirm'.",
+          "status": "ok",
+          "action": "click(0.731,0.704)",
+          "decide_ms": 655.706999998074,
+          "act_ms": 10.86010001017712,
+          "verify_ms": 731.3253999745939,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "red circle",
+          "time": 182652.0187048
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "birch-26",
+          "time": 182654.0854927
+        }
+      ]
+    },
+    {
+      "scenario": 0,
+      "repeat": 1,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 1954.0420999983326,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the purple star image.",
+          "status": "ok",
+          "action": "click(0.112,0.268)",
+          "decide_ms": 269.5715999871027,
+          "act_ms": 6.280200002947822,
+          "verify_ms": 210.78280001529492,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.249,0.704)",
+          "decide_ms": 253.52449997444637,
+          "act_ms": 6.427500018617138,
+          "verify_ms": 215.39349999511614,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: cedar-47",
+          "status": "ok",
+          "action": "type('cedar-47')",
+          "decide_ms": 0.0,
+          "act_ms": 12.604500021552667,
+          "verify_ms": 209.96070001274347,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Apply'.",
+          "status": "ok",
+          "action": "click(0.731,0.704)",
+          "decide_ms": 243.83279998437501,
+          "act_ms": 10.23339998209849,
+          "verify_ms": 434.63279999559745,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "purple star",
+          "time": 182655.2170054
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "cedar-47",
+          "time": 182656.4393395
+        }
+      ]
+    },
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 2205.49469999969,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the green triangle image.",
+          "status": "ok",
+          "action": "click(0.600,0.477)",
+          "decide_ms": 263.38260000920855,
+          "act_ms": 10.01719999476336,
+          "verify_ms": 213.85040000313893,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.298,0.757)",
+          "decide_ms": 247.35570000484586,
+          "act_ms": 9.23779999720864,
+          "verify_ms": 214.945700019598,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: maple-83",
+          "status": "ok",
+          "action": "type('maple-83')",
+          "decide_ms": 0.0,
+          "act_ms": 6.932899996172637,
+          "verify_ms": 214.81150001636706,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Continue'.",
+          "status": "ok",
+          "action": "click(0.728,0.757)",
+          "decide_ms": 245.74079999001697,
+          "act_ms": 9.986699995351955,
+          "verify_ms": 714.056900003925,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "green triangle",
+          "time": 182657.2306637
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "maple-83",
+          "time": 182658.4339859
+        }
+      ]
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 2184.7366000001784,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the red circle image.",
+          "status": "ok",
+          "action": "click(0.270,0.247)",
+          "decide_ms": 263.9641000132542,
+          "act_ms": 7.232800009660423,
+          "verify_ms": 212.25759998196736,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.285,0.704)",
+          "decide_ms": 242.4374000111129,
+          "act_ms": 7.745500013697892,
+          "verify_ms": 212.91840000776574,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: birch-26",
+          "status": "ok",
+          "action": "type('birch-26')",
+          "decide_ms": 0.0,
+          "act_ms": 5.877300020074472,
+          "verify_ms": 210.72790000471286,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Confirm'.",
+          "status": "ok",
+          "action": "click(0.731,0.704)",
+          "decide_ms": 239.96119998628274,
+          "act_ms": 9.8260999948252,
+          "verify_ms": 715.7277999795042,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "red circle",
+          "time": 182659.5304079
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "birch-26",
+          "time": 182660.7129244
+        }
+      ]
+    },
+    {
+      "scenario": 0,
+      "repeat": 2,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 2218.54090000852,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the purple star image.",
+          "status": "ok",
+          "action": "click(0.112,0.268)",
+          "decide_ms": 281.2405999866314,
+          "act_ms": 10.538000002270564,
+          "verify_ms": 215.95139999408275,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.249,0.704)",
+          "decide_ms": 251.82419997872785,
+          "act_ms": 6.056100013665855,
+          "verify_ms": 213.18150000297464,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: cedar-47",
+          "status": "ok",
+          "action": "type('cedar-47')",
+          "decide_ms": 0.0,
+          "act_ms": 7.320500008063391,
+          "verify_ms": 209.85640000435524,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Apply'.",
+          "status": "ok",
+          "action": "click(0.731,0.704)",
+          "decide_ms": 230.97039997810498,
+          "act_ms": 10.585400013951585,
+          "verify_ms": 717.0876000018325,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "purple star",
+          "time": 182661.8017181
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "cedar-47",
+          "time": 182662.9910602
+        }
+      ]
+    },
+    {
+      "scenario": 1,
+      "repeat": 2,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 1778.7639999878593,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the green triangle image.",
+          "status": "ok",
+          "action": "click(0.600,0.477)",
+          "decide_ms": 256.8160000082571,
+          "act_ms": 5.84339999477379,
+          "verify_ms": 213.51690002484247,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.298,0.757)",
+          "decide_ms": 230.07379999035038,
+          "act_ms": 6.237399997189641,
+          "verify_ms": 214.11470000748523,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: maple-83",
+          "status": "ok",
+          "action": "type('maple-83')",
+          "decide_ms": 0.0,
+          "act_ms": 8.035800012294203,
+          "verify_ms": 209.67829998699017,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Continue'.",
+          "status": "ok",
+          "action": "click(0.728,0.757)",
+          "decide_ms": 240.12200001743622,
+          "act_ms": 8.062200009590015,
+          "verify_ms": 322.91350001469254,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "green triangle",
+          "time": 182664.0752584
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "maple-83",
+          "time": 182665.2519133
+        }
+      ]
+    },
+    {
+      "scenario": 2,
+      "repeat": 2,
+      "actual_success": true,
+      "claimed_success": true,
+      "total_ms": 1770.7027999858838,
+      "completed": 4,
+      "handback": null,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Click the red circle image.",
+          "status": "ok",
+          "action": "click(0.270,0.247)",
+          "decide_ms": 238.00240000127815,
+          "act_ms": 10.329100012313575,
+          "verify_ms": 213.06670000194572,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 1,
+          "do": "Click inside the Note text field.",
+          "status": "ok",
+          "action": "click(0.285,0.704)",
+          "decide_ms": 232.02300001867115,
+          "act_ms": 10.596899985102937,
+          "verify_ms": 212.09420001832768,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 2,
+          "do": "Type: birch-26",
+          "status": "ok",
+          "action": "type('birch-26')",
+          "decide_ms": 0.0,
+          "act_ms": 7.322399993427098,
+          "verify_ms": 211.78250000230037,
+          "attempts": 1,
+          "note": ""
+        },
+        {
+          "i": 3,
+          "do": "Click 'Confirm'.",
+          "status": "ok",
+          "action": "click(0.731,0.704)",
+          "decide_ms": 238.9784000115469,
+          "act_ms": 9.203100024024025,
+          "verify_ms": 317.6709999970626,
+          "attempts": 1,
+          "note": ""
+        }
+      ],
+      "events": [
+        {
+          "event": "select",
+          "value": "red circle",
+          "time": 182665.8951343
+        },
+        {
+          "event": "finish",
+          "success": true,
+          "text": "birch-26",
+          "time": 182667.0816619
+        }
+      ]
+    }
+  ]
+}

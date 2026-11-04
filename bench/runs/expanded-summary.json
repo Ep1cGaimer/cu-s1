@@ -1,0 +1,190 @@
+{
+  "surfaces": {
+    "native": {
+      "builtin": {
+        "trials": 3,
+        "actual_successes": 3,
+        "median_ms": 26622,
+        "min_ms": 25875,
+        "max_ms": 66476
+      },
+      "local": {
+        "trials": 6,
+        "actual_successes": 6,
+        "median_ms": 4096.234700002242,
+        "min_ms": 2747.285399993416,
+        "max_ms": 8174.542199994903
+      },
+      "claimed_successes": 6,
+      "warmup_ms_excluded": 12562.76619998971,
+      "tasks": [
+        {
+          "scenario": 0,
+          "builtin_ms": 25875,
+          "local": {
+            "trials": 2,
+            "actual_successes": 2,
+            "median_ms": 6366.033199999947,
+            "min_ms": 4557.524200004991,
+            "max_ms": 8174.542199994903
+          }
+        },
+        {
+          "scenario": 1,
+          "builtin_ms": 26622,
+          "local": {
+            "trials": 2,
+            "actual_successes": 2,
+            "median_ms": 3184.1649999987567,
+            "min_ms": 2747.285399993416,
+            "max_ms": 3621.0446000040974
+          }
+        },
+        {
+          "scenario": 2,
+          "builtin_ms": 66476,
+          "local": {
+            "trials": 2,
+            "actual_successes": 2,
+            "median_ms": 4250.631550006801,
+            "min_ms": 3634.9451999994926,
+            "max_ms": 4866.31790001411
+          }
+        }
+      ],
+      "negative_handbacks": 3,
+      "negative_cases": 3,
+      "source_sha256": {
+        "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+        "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+        "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+        "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+        "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+        "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+        "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+      }
+    },
+    "edge": {
+      "builtin": {
+        "trials": 3,
+        "actual_successes": 3,
+        "median_ms": 31367,
+        "min_ms": 25078,
+        "max_ms": 37885
+      },
+      "local": {
+        "trials": 6,
+        "actual_successes": 6,
+        "median_ms": 5729.062799990061,
+        "min_ms": 3085.997199988924,
+        "max_ms": 9002.740900003118
+      },
+      "claimed_successes": 6,
+      "warmup_ms_excluded": 3338.8870999915525,
+      "tasks": [
+        {
+          "scenario": 0,
+          "builtin_ms": 31367,
+          "local": {
+            "trials": 2,
+            "actual_successes": 2,
+            "median_ms": 7835.172549996059,
+            "min_ms": 6667.604199989,
+            "max_ms": 9002.740900003118
+          }
+        },
+        {
+          "scenario": 1,
+          "builtin_ms": 37885,
+          "local": {
+            "trials": 2,
+            "actual_successes": 2,
+            "median_ms": 3256.3029500015546,
+            "min_ms": 3085.997199988924,
+            "max_ms": 3426.608700014185
+          }
+        },
+        {
+          "scenario": 2,
+          "builtin_ms": 25078,
+          "local": {
+            "trials": 2,
+            "actual_successes": 2,
+            "median_ms": 5729.062799990061,
+            "min_ms": 5139.709599985508,
+            "max_ms": 6318.415999994613
+          }
+        }
+      ],
+      "negative_handbacks": 3,
+      "negative_cases": 3,
+      "source_sha256": {
+        "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+        "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+        "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+        "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+        "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+        "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+        "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+      }
+    }
+  },
+  "scope": "Six disposable tasks, two surfaces, supplied bounded plans. Built-in uses this parent model with accessibility allowed. Local uses real stdio MCP. Setup, warmup, parent planning and delegation generation are excluded. Trials include cold-shape costs and baseline recoveries. Development fixtures, not an independent held-out general computer-use benchmark.",
+  "builtin": {
+    "trials": 6,
+    "actual_successes": 6,
+    "median_ms": 28994.5,
+    "min_ms": 25078,
+    "max_ms": 66476
+  },
+  "local": {
+    "trials": 12,
+    "actual_successes": 12,
+    "median_ms": 4711.9210500095505,
+    "min_ms": 2747.285399993416,
+    "max_ms": 9002.740900003118
+  },
+  "local_matched_task_median_ms": 4989.847174998431,
+  "ratio_of_pooled_medians": 6.153435019871828,
+  "ratio_of_matched_task_medians": 5.810699002020862,
+  "development_history": {
+    "v2-before": {
+      "native": {
+        "trials": 3,
+        "actual_successes": 2,
+        "claimed_successes": 1
+      },
+      "edge": {
+        "trials": 3,
+        "actual_successes": 2,
+        "claimed_successes": 2
+      }
+    },
+    "v3": {
+      "native": {
+        "trials": 6,
+        "actual_successes": 4,
+        "claimed_successes": 2
+      },
+      "edge": {
+        "trials": 6,
+        "actual_successes": 3,
+        "claimed_successes": 3
+      }
+    },
+    "v4": {
+      "native": {
+        "trials": 6,
+        "actual_successes": 6,
+        "claimed_successes": 6
+      },
+      "edge": {
+        "trials": 6,
+        "actual_successes": 6,
+        "claimed_successes": 6
+      }
+    }
+  }
+}

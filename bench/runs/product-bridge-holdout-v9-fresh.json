@@ -1,0 +1,1198 @@
+{
+  "seeds": [
+    41,
+    57,
+    83
+  ],
+  "model": "qwen3-vl:2b-instruct",
+  "server_module": "cu_s1.bridge",
+  "source_sha256": {
+    "src/cu_s1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/cu_s1/app.py": "5eb79d1289d329b2f1e88f24a0236ae12d17991d3ae796acc5c124ba81d83139",
+    "src/cu_s1/bridge.py": "f9b8ec830ba4604dc35f80ea958373259e083d342249af05137d52272333ec51",
+    "src/cu_s1/doctor.py": "2a567e3dae3b28c5cc87a2e6e95b519141f4172231aa4c17699708b27e833b49",
+    "src/cu_s1/humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src/cu_s1/paths.py": "ddc75bcad690a3b1abd4a428b88ea7d16bad70c6fe1bd13f743a6bc8973401be",
+    "src/cu_s1/runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src/cu_s1/screen.py": "0fce599543a9fde93d992d4e9562e2b4bc2d6c1f8d2b52402c97e6ccabbb5611",
+    "src/cu_s1/server.py": "fefdc4fa915ded37974d7f8858269d33960648d27a4ccf461de9da5c11db573d",
+    "src/cu_s1/verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src/cu_s1/vlm.py": "0b440bbad585e0818e699f8e6ca13a31e58b101cd262006f79a8ed15cf624856",
+    "src/cu_s1/window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9",
+    "bench/holdout_fixture.py": "756ee67a7b64c8a57b6cb789d6e777f8fac09cbec79229545b11f24835b8d66c",
+    "bench/holdout_mcp.py": "771d1331df8641df7b8761102e55922aead4a01f7db20ebc2316f83679e277c5",
+    "pyproject.toml": "e4352f65ba08be021b33a2256c28a24686f203bdb53bd80f739f49fe9a0a9ab3"
+  },
+  "runs": [
+    {
+      "seed": 41,
+      "scenario": 0,
+      "execution_wall_ms": 15342.759000021033,
+      "process_and_execution_wall_ms": 16446.324600023217,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed41-scenario0.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.139949
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1410763
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1426642
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1431856
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1431856
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1431856
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1437125
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1437125
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1437125
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.144233
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.144233
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.144233
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.144233
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1447625
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1447625
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1447625
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.145288
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.145288
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.145288
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1458087
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1458087
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1458087
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1458087
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1463325
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1463325
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1463325
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1463325
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1468563
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1468563
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1468563
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.14737
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.14737
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.14737
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.147897
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1489034
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1489034
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1489034
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1494105
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1494105
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1494105
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1494105
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1494105
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1494105
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.150413
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.150413
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.150413
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.150413
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.150413
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.150413
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1514134
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1514134
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1514134
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1514134
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1514134
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1514134
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1524115
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1524115
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1524115
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1524115
+        },
+        {
+          "event": "scroll",
+          "value": null,
+          "time": 1793817824.1524115
+        },
+        {
+          "event": "select_record",
+          "value": "LARK-51",
+          "time": 1793817825.5485215
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817826.8753934
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 15076,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll to the bottom of the archive records pane.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 11208.692799991695,
+            "act_ms": 15.373399975942448,
+            "verify_ms": 512.6467000227422,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click Select LARK-51.",
+            "status": "ok",
+            "action": "click(0.602,0.462)",
+            "decide_ms": 696.1435999837704,
+            "act_ms": 4.005800001323223,
+            "verify_ms": 650.5449000105727,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Save record.",
+            "status": "ok",
+            "action": "click(0.625,0.778)",
+            "decide_ms": 668.0229000048712,
+            "act_ms": 14.393399993423373,
+            "verify_ms": 1119.3201999994926,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 41,
+      "scenario": 1,
+      "execution_wall_ms": 4949.529800011078,
+      "process_and_execution_wall_ms": 6386.71570000588,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed41-scenario1.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "tab",
+          "value": "Overview",
+          "time": 1793817828.0759232
+        },
+        {
+          "event": "tab",
+          "value": "Overview",
+          "time": 1793817828.0759232
+        },
+        {
+          "event": "tab",
+          "value": "Delivery",
+          "time": 1793817831.079627
+        },
+        {
+          "event": "choose_mode",
+          "value": "Standard",
+          "time": 1793817832.425295
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817833.8279548
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4782,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Delivery tab.",
+            "status": "ok",
+            "action": "click(0.144,0.191)",
+            "decide_ms": 845.942499989178,
+            "act_ms": 6.849800003692508,
+            "verify_ms": 625.952500035055,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Select the Standard radio option.",
+            "status": "ok",
+            "action": "click(0.148,0.375)",
+            "decide_ms": 682.0944999926724,
+            "act_ms": 5.115900014061481,
+            "verify_ms": 691.9591000187211,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Apply settings.",
+            "status": "ok",
+            "action": "click(0.641,0.784)",
+            "decide_ms": 683.140800014371,
+            "act_ms": 2.828199998475611,
+            "verify_ms": 1144.4376000144985,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 41,
+      "scenario": 2,
+      "execution_wall_ms": 5405.09730001213,
+      "process_and_execution_wall_ms": 6502.374999981839,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed41-scenario2.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "select_symbol",
+          "value": "diamond",
+          "time": 1793817837.3476954
+        },
+        {
+          "event": "select_symbol",
+          "value": "diamond",
+          "time": 1793817837.4989722
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817840.4579444
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 5110,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the purple diamond image.",
+            "status": "ok",
+            "action": "click(0.571,0.305)",
+            "decide_ms": 684.0161999862175,
+            "act_ms": 7.565300009446219,
+            "verify_ms": 692.4255000194535,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click the Registration code text field.",
+            "status": "ok",
+            "action": "click(0.234,0.614)",
+            "decide_ms": 685.3676000027917,
+            "act_ms": 7.434400002239272,
+            "verify_ms": 617.4060999765061,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Type: harbor-29",
+            "status": "ok",
+            "action": "type('harbor-29')",
+            "decide_ms": 0.0,
+            "act_ms": 18.097599997418,
+            "verify_ms": 264.1663999820594,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": null
+          },
+          {
+            "i": 3,
+            "do": "Click Submit registration.",
+            "status": "ok",
+            "action": "click(0.614,0.624)",
+            "decide_ms": 674.8750999977347,
+            "act_ms": 2.6673999964259565,
+            "verify_ms": 1337.3482000024524,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 57,
+      "scenario": 0,
+      "execution_wall_ms": 5186.389900016366,
+      "process_and_execution_wall_ms": 6317.271099978825,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed57-scenario0.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "select_record",
+          "value": "LARK-37",
+          "time": 1793817846.1411543
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817847.529182
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 5008,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll to the bottom of the archive records pane.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 962.6824999868404,
+            "act_ms": 19.993299996713176,
+            "verify_ms": 566.3126000144985,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click Select LARK-37.",
+            "status": "ok",
+            "action": "click(0.559,0.645)",
+            "decide_ms": 775.9086000151001,
+            "act_ms": 8.093300013570115,
+            "verify_ms": 693.1689999764785,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Save record.",
+            "status": "ok",
+            "action": "click(0.612,0.754)",
+            "decide_ms": 703.3469000016339,
+            "act_ms": 6.700300000375137,
+            "verify_ms": 1175.5396999942604,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 57,
+      "scenario": 1,
+      "execution_wall_ms": 4992.081599979429,
+      "process_and_execution_wall_ms": 6374.009399994975,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed57-scenario1.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "tab",
+          "value": "Overview",
+          "time": 1793817848.7092671
+        },
+        {
+          "event": "tab",
+          "value": "Delivery",
+          "time": 1793817851.6367671
+        },
+        {
+          "event": "choose_mode",
+          "value": "Economy",
+          "time": 1793817853.002164
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817854.3292847
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4761,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Delivery tab.",
+            "status": "ok",
+            "action": "click(0.222,0.192)",
+            "decide_ms": 896.6993999783881,
+            "act_ms": 4.477099981158972,
+            "verify_ms": 577.1284000074957,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Select the Economy radio option.",
+            "status": "ok",
+            "action": "click(0.155,0.558)",
+            "decide_ms": 708.3577000012156,
+            "act_ms": 8.313600003020838,
+            "verify_ms": 676.1570000089705,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Apply settings.",
+            "status": "ok",
+            "action": "click(0.658,0.774)",
+            "decide_ms": 678.8036999932956,
+            "act_ms": 2.112299989676103,
+            "verify_ms": 1111.8212999717798,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 57,
+      "scenario": 2,
+      "execution_wall_ms": 5496.748100005789,
+      "process_and_execution_wall_ms": 6582.928300020285,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed57-scenario2.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "select_symbol",
+          "value": "triangle",
+          "time": 1793817858.2563636
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817861.3477328
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 5322,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the purple triangle image.",
+            "status": "ok",
+            "action": "click(0.420,0.288)",
+            "decide_ms": 881.7159999744035,
+            "act_ms": 4.069300019182265,
+            "verify_ms": 643.7788000039291,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click the Registration code text field.",
+            "status": "ok",
+            "action": "click(0.246,0.604)",
+            "decide_ms": 696.005999983754,
+            "act_ms": 7.3782000108622015,
+            "verify_ms": 623.9086999848951,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Type: orbit-64",
+            "status": "ok",
+            "action": "type('orbit-64')",
+            "decide_ms": 0.0,
+            "act_ms": 7.59319998905994,
+            "verify_ms": 269.12859998992644,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": null
+          },
+          {
+            "i": 3,
+            "do": "Click Submit registration.",
+            "status": "ok",
+            "action": "click(0.634,0.612)",
+            "decide_ms": 721.2148999969941,
+            "act_ms": 1.9355000113137066,
+            "verify_ms": 1333.357800001977,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 83,
+      "scenario": 0,
+      "execution_wall_ms": 5170.609000022523,
+      "process_and_execution_wall_ms": 6313.6659000010695,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed83-scenario0.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "select_record",
+          "value": "LARK-35",
+          "time": 1793817866.7957456
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817868.152746
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4878,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll to the bottom of the archive records pane.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 928.381800011266,
+            "act_ms": 28.456500003812835,
+            "verify_ms": 598.3077000128105,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click Select LARK-35.",
+            "status": "ok",
+            "action": "click(0.588,0.448)",
+            "decide_ms": 749.0314000169747,
+            "act_ms": 6.763999990653247,
+            "verify_ms": 641.6793999960646,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Save record.",
+            "status": "ok",
+            "action": "click(0.604,0.754)",
+            "decide_ms": 670.2410999860149,
+            "act_ms": 7.238599995616823,
+            "verify_ms": 1143.9555000397377,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 83,
+      "scenario": 1,
+      "execution_wall_ms": 5152.341200009687,
+      "process_and_execution_wall_ms": 6535.481099999743,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed83-scenario1.png",
+      "actual_success": true,
+      "events": [
+        {
+          "event": "tab",
+          "value": "Overview",
+          "time": 1793817869.4043963
+        },
+        {
+          "event": "tab",
+          "value": "Delivery",
+          "time": 1793817872.3663921
+        },
+        {
+          "event": "choose_mode",
+          "value": "Express",
+          "time": 1793817873.7039819
+        },
+        {
+          "event": "submit",
+          "value": true,
+          "time": 1793817875.096545
+        }
+      ],
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4840,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Delivery tab.",
+            "status": "ok",
+            "action": "click(0.214,0.196)",
+            "decide_ms": 937.05950002186,
+            "act_ms": 4.9842000007629395,
+            "verify_ms": 586.5991000027861,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Select the Express radio option.",
+            "status": "ok",
+            "action": "click(0.144,0.384)",
+            "decide_ms": 685.9968999924604,
+            "act_ms": 5.5970000103116035,
+            "verify_ms": 676.2829000072088,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Apply settings.",
+            "status": "ok",
+            "action": "click(0.641,0.784)",
+            "decide_ms": 661.2486999947578,
+            "act_ms": 1.9659999816212803,
+            "verify_ms": 1191.7928000038955,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "seed": 83,
+      "scenario": 2,
+      "execution_wall_ms": 2976.5411999833304,
+      "process_and_execution_wall_ms": 4455.46870000544,
+      "final_frame": "bench\\runs\\product-bridge-holdout-v9-fresh-seed83-scenario2.png",
+      "actual_success": false,
+      "events": [
+        {
+          "event": "select_symbol",
+          "value": "diamond",
+          "time": 1793817879.4540498
+        }
+      ],
+      "summary": {
+        "ok": false,
+        "completed": 1,
+        "total": 4,
+        "handback": "step 1 ('Click the Registration code text field.') ended with error: input guard rejected action",
+        "total_ms": 2723,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the blue diamond image.",
+            "status": "ok",
+            "action": "click(0.275,0.305)",
+            "decide_ms": 930.7508000056259,
+            "act_ms": 6.172099994728342,
+            "verify_ms": 668.5894000402186,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click the Registration code text field.",
+            "status": "error",
+            "action": "click(0.246,0.614)",
+            "decide_ms": 677.4063000048045,
+            "act_ms": 0.0,
+            "verify_ms": 375.8848000143189,
+            "attempts": 1,
+            "note": "input guard rejected action",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "source_sha256_end": {
+    "src/cu_s1/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/cu_s1/app.py": "ad6b8d7842763f08f9c6d7ad361b317e6d85fb579740d14c650e72f070bcaefa",
+    "src/cu_s1/bridge.py": "f9b8ec830ba4604dc35f80ea958373259e083d342249af05137d52272333ec51",
+    "src/cu_s1/doctor.py": "2a567e3dae3b28c5cc87a2e6e95b519141f4172231aa4c17699708b27e833b49",
+    "src/cu_s1/humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src/cu_s1/paths.py": "ddc75bcad690a3b1abd4a428b88ea7d16bad70c6fe1bd13f743a6bc8973401be",
+    "src/cu_s1/runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src/cu_s1/screen.py": "0fce599543a9fde93d992d4e9562e2b4bc2d6c1f8d2b52402c97e6ccabbb5611",
+    "src/cu_s1/server.py": "fefdc4fa915ded37974d7f8858269d33960648d27a4ccf461de9da5c11db573d",
+    "src/cu_s1/verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src/cu_s1/vlm.py": "0b440bbad585e0818e699f8e6ca13a31e58b101cd262006f79a8ed15cf624856",
+    "src/cu_s1/window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9",
+    "bench/holdout_fixture.py": "756ee67a7b64c8a57b6cb789d6e777f8fac09cbec79229545b11f24835b8d66c",
+    "bench/holdout_mcp.py": "771d1331df8641df7b8761102e55922aead4a01f7db20ebc2316f83679e277c5",
+    "pyproject.toml": "e4352f65ba08be021b33a2256c28a24686f203bdb53bd80f739f49fe9a0a9ab3"
+  }
+}

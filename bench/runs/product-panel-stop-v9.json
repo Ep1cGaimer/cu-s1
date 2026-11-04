@@ -1,0 +1,337 @@
+{
+  "scope": "Dashboard Stop button for an actual MCP-originated shared job",
+  "job": {
+    "id": "nIu_RcKMyrYnqtRcSnSym7WV",
+    "status": "stopped",
+    "total": 20,
+    "steps": [
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      },
+      {
+        "do": "Wait.",
+        "expect": "The Registration code text field is visible.",
+        "risky": false,
+        "confirmed": false
+      }
+    ],
+    "stop_requested": true,
+    "summary": {
+      "ok": false,
+      "completed": 13,
+      "total": 20,
+      "handback": "step 13 ('Wait.') ended with error: input guard rejected action",
+      "total_ms": 15619,
+      "steps": [
+        {
+          "i": 0,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 2449.2526999965776,
+          "act_ms": 500.0816000101622,
+          "verify_ms": 342.0654000074137,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 1,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 135.2502999943681,
+          "act_ms": 500.15870001516305,
+          "verify_ms": 339.54720001202077,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 2,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 158.9883000124246,
+          "act_ms": 500.3810999915004,
+          "verify_ms": 345.423299993854,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 3,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 135.9834999893792,
+          "act_ms": 500.15750000602566,
+          "verify_ms": 336.20399999199435,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 4,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 140.0091999967117,
+          "act_ms": 500.47680002171546,
+          "verify_ms": 354.0011000004597,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 5,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 134.8537000012584,
+          "act_ms": 500.12019998393953,
+          "verify_ms": 343.43439998338,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 6,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 129.723499994725,
+          "act_ms": 500.4175999783911,
+          "verify_ms": 347.3610999935772,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 7,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 130.73470001108944,
+          "act_ms": 500.496499997098,
+          "verify_ms": 352.63120001764037,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 8,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 143.74120000866242,
+          "act_ms": 500.2985000028275,
+          "verify_ms": 348.6362000112422,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 9,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 136.95590000133961,
+          "act_ms": 500.2764000091702,
+          "verify_ms": 342.3997999925632,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 10,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 127.57589999819174,
+          "act_ms": 500.0914999982342,
+          "verify_ms": 345.0957000022754,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 11,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 130.21780000417493,
+          "act_ms": 500.44960001832806,
+          "verify_ms": 350.8154999872204,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 12,
+          "do": "Wait.",
+          "status": "ok",
+          "action": "wait",
+          "decide_ms": 136.56469999114051,
+          "act_ms": 500.37090000114404,
+          "verify_ms": 362.6226000196766,
+          "attempts": 1,
+          "note": "",
+          "verified": true,
+          "check_reply": "yes",
+          "active_region": null
+        },
+        {
+          "i": 13,
+          "do": "Wait.",
+          "status": "error",
+          "action": "wait",
+          "decide_ms": 138.92610001494177,
+          "act_ms": 0.0,
+          "verify_ms": 0.0,
+          "attempts": 1,
+          "note": "input guard rejected action",
+          "verified": false,
+          "check_reply": "",
+          "active_region": null
+        }
+      ]
+    }
+  },
+  "fixture_events": []
+}

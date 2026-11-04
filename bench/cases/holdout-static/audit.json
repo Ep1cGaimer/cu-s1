@@ -1,0 +1,21 @@
+{
+  "seed": 88931,
+  "case_count": 36,
+  "generator_sha256": "b61444776f6b5a336abfe1307117d341b31c5a1a36f808a08da54fc232c3ad95",
+  "pillow_version": "13.0.0",
+  "font_sha256": {
+    "C:\\Windows\\Fonts\\segoeui.ttf": "704eada12961a27fd271f7d3b09e2066520e758390c1776744eff430fee30f6e",
+    "C:\\Windows\\Fonts\\arial.ttf": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a",
+    "C:\\Windows\\Fonts\\calibri.ttf": "57e93ff143572bcc092c1f56202d43ddc07bb119aa104c6d7af163470fb551f6"
+  },
+  "counts": {
+    "positive_label": 12,
+    "positive_icon": 12,
+    "absent_label": 8,
+    "modal_blocked": 2,
+    "disabled": 2
+  },
+  "bbox_format": "left, top, right, bottom in image pixels; right and bottom exclusive",
+  "rationale": "Deterministic synthetic engineering controls and icons, varied layout, canvas, font and palette; labels and absence targets chosen before model predictions. Handback cases represent absent or unavailable targets. No external or user content.",
+  "limitations": "Synthetic still images only; no claim about real applications, dynamic state, or model safety."
+}

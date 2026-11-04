@@ -1,0 +1,34 @@
+{
+  "local_successes": 8,
+  "local_trials": 9,
+  "pairs": [
+    {
+      "seed": 8,
+      "scenario": 0,
+      "builtin_ms": 25582,
+      "local_ms": 12339.793099992676,
+      "builtin_success": true,
+      "local_success": true
+    },
+    {
+      "seed": 19,
+      "scenario": 1,
+      "builtin_ms": 21112,
+      "local_ms": 6762.320400011959,
+      "builtin_success": true,
+      "local_success": true
+    },
+    {
+      "seed": 31,
+      "scenario": 2,
+      "builtin_ms": 35700,
+      "local_ms": 6847.992599999998,
+      "builtin_success": true,
+      "local_success": true
+    }
+  ],
+  "builtin_median_ms": 25582,
+  "matched_local_median_ms": 6847.992599999998,
+  "scope": "Three matched supplied-plan holdout tasks. Execution includes observations/decision/action/verification. Parent delegation generation and setup excluded. Full holdout local8/9; handback case not omitted.",
+  "paired_median_ratio": 3.7356932891545487
+}

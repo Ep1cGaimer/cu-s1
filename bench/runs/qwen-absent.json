@@ -1,0 +1,124 @@
+{
+  "model": "qwen3-vl:2b-instruct",
+  "hit_rate": 0.3,
+  "by_kind": {
+    "absent": 0.3
+  },
+  "unparsable_or_non_click": 0,
+  "median_ms": 352.1510499995202,
+  "p90_ms": 569.6534999879077,
+  "max_side": 1280,
+  "count": 10,
+  "cases": [
+    {
+      "id": "absent00",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.431,
+      "ny": 0.535,
+      "raw": "{\"action\": \"click\", \"point\": [431, 535]}",
+      "latency_ms": 261.33779998053797
+    },
+    {
+      "id": "absent01",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.691,
+      "ny": 0.237,
+      "raw": "{\"action\": \"click\", \"point\": [691, 237]}",
+      "latency_ms": 347.71150001324713
+    },
+    {
+      "id": "absent02",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": true,
+      "action": "handback",
+      "nx": null,
+      "ny": null,
+      "raw": "{\"action\": \"handback\", \"reason\": \"The instruction asks to click the button labeled 'ZEBRA-9QX', but this label is not visible in the provided screenshot. Therefore, it cannot be safely completed with the current information.\"}",
+      "latency_ms": 569.6534999879077
+    },
+    {
+      "id": "absent03",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.093,
+      "ny": 0.509,
+      "raw": "{\"action\": \"click\", \"point\": [93, 509]}",
+      "latency_ms": 336.42279999912716
+    },
+    {
+      "id": "absent04",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": true,
+      "action": "handback",
+      "nx": null,
+      "ny": null,
+      "raw": "{\"action\": \"handback\", \"reason\": \"The button labeled 'ZEBRA-9QX' is not visible in the screenshot provided.\"}",
+      "latency_ms": 427.5643000146374
+    },
+    {
+      "id": "absent05",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": true,
+      "action": "handback",
+      "nx": null,
+      "ny": null,
+      "raw": "{\"action\": \"handback\", \"reason\": \"The instruction asks to click the button labeled 'ZEBRA-9QX', but this label is not visible in the provided screenshot. Therefore, it cannot be safely completed as the target is not present in the image.\"}",
+      "latency_ms": 580.2533999958541
+    },
+    {
+      "id": "absent06",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.692,
+      "ny": 0.898,
+      "raw": "{\"action\": \"click\", \"point\": [692, 898]}",
+      "latency_ms": 329.502099979436
+    },
+    {
+      "id": "absent07",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.432,
+      "ny": 0.168,
+      "raw": "{\"action\": \"click\", \"point\": [432, 168]}",
+      "latency_ms": 347.4986999935936
+    },
+    {
+      "id": "absent08",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.214,
+      "ny": 0.634,
+      "raw": "{\"action\": \"click\", \"point\": [214, 634]}",
+      "latency_ms": 356.59059998579323
+    },
+    {
+      "id": "absent09",
+      "kind": "absent",
+      "instruction": "Click the button labeled 'ZEBRA-9QX'.",
+      "hit": false,
+      "action": "click",
+      "nx": 0.614,
+      "ny": 0.645,
+      "raw": "{\"action\": \"click\", \"point\": [614, 645]}",
+      "latency_ms": 429.3005000217818
+    }
+  ]
+}

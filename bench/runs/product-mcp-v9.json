@@ -1,0 +1,15 @@
+{
+  "tools": [
+    "windows",
+    "look",
+    "stop",
+    "run_steps"
+  ],
+  "actual_stdio_bridge": true,
+  "overlap_rejected": true,
+  "protocol_cancellation_stopped_shared_job": true,
+  "events_after_cancel": [],
+  "engine_released": true,
+  "look_after_cancel_has_image": true,
+  "cancelled_job_status": "stopped"
+}

@@ -1,0 +1,33 @@
+{
+  "scenario": 0,
+  "generation": 0,
+  "events": [
+    {
+      "generation": 0,
+      "event": "select",
+      "value": "rise"
+    },
+    {
+      "generation": 0,
+      "event": "apply",
+      "selected": "rise",
+      "text": "OAK-19"
+    }
+  ],
+  "completed": true,
+  "steps": [
+    {
+      "do": "Click the image of a blue line rising from left to right."
+    },
+    {
+      "do": "Click inside the Label text field."
+    },
+    {
+      "do": "Type: OAK-19"
+    },
+    {
+      "do": "Click 'Apply label'.",
+      "expect": "The page says COMPLETE."
+    }
+  ]
+}

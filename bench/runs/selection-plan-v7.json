@@ -1,0 +1,27 @@
+{
+  "utc": "2026-11-04T13:43:38.778474+00:00",
+  "deadline_ist": "2026-11-04 20:00",
+  "computer_use": "paused; no live capture/input or app operations allowed",
+  "policy": "Keep validated2B1280 default unless4B passes the following development gates. No production prompt changes based on heldout cases.",
+  "candidate_gates": {
+    "positive_dev_grounding_minimum": "33/35 on unchanged audited manifest",
+    "raw_absent_handoff_minimum": "At least2B current action-only baseline, plus existing presence/modal safeguards retained",
+    "median_action_ms_maximum": 1500,
+    "single_loaded_model_gpu_total_mib_maximum": 6000
+  },
+  "reserved_tests": [
+    "holdout live seeds8/19/31 (blocked by user pause)",
+    "independently generated static seed88931 (no model feedback to builder)"
+  ],
+  "source_sha256": {
+    "src\\cu_s1\\doctor.py": "2a567e3dae3b28c5cc87a2e6e95b519141f4172231aa4c17699708b27e833b49",
+    "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+    "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+    "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+    "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9",
+    "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

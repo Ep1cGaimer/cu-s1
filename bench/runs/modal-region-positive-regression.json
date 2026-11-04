@@ -1,0 +1,387 @@
+[
+  {
+    "id": "case00",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 2925.5933000240475
+  },
+  {
+    "id": "case01",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 797.8264999983367
+  },
+  {
+    "id": "case02",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 975.6318999861833
+  },
+  {
+    "id": "case03",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 435.6074999959674
+  },
+  {
+    "id": "case04",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 726.5691999928094
+  },
+  {
+    "id": "case05",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 807.5618999719154
+  },
+  {
+    "id": "case06",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 466.4292999950703
+  },
+  {
+    "id": "case07",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 823.5567999945488
+  },
+  {
+    "id": "case08",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 818.4129000001121
+  },
+  {
+    "id": "case09",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 744.4459000253119
+  },
+  {
+    "id": "case10",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 684.4291999877896
+  },
+  {
+    "id": "case11",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 679.5917999988887
+  },
+  {
+    "id": "case12",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 681.7168999987189
+  },
+  {
+    "id": "case13",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 673.9108999900054
+  },
+  {
+    "id": "case14",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 660.3845000208821
+  },
+  {
+    "id": "case15",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 819.3572000018321
+  },
+  {
+    "id": "case16",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 755.6973999890033
+  },
+  {
+    "id": "case17",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 743.2976999843959
+  },
+  {
+    "id": "case18",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 758.8401999964844
+  },
+  {
+    "id": "case19",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 726.2874000007287
+  },
+  {
+    "id": "real00",
+    "region": [
+      0.512,
+      0.22,
+      0.735,
+      0.82
+    ],
+    "target_inside": true,
+    "ms": 918.2219000067562
+  },
+  {
+    "id": "real01",
+    "region": [
+      0.512,
+      0.22,
+      0.729,
+      0.82
+    ],
+    "target_inside": true,
+    "ms": 379.72050000098534
+  },
+  {
+    "id": "real04",
+    "region": [
+      0.512,
+      0.22,
+      0.729,
+      0.82
+    ],
+    "target_inside": true,
+    "ms": 372.2604000067804
+  },
+  {
+    "id": "real05",
+    "region": [
+      0.512,
+      0.22,
+      0.729,
+      0.82
+    ],
+    "target_inside": true,
+    "ms": 584.0600999945309
+  },
+  {
+    "id": "real06",
+    "region": [
+      0.512,
+      0.22,
+      0.729,
+      0.82
+    ],
+    "target_inside": true,
+    "ms": 396.152000001166
+  },
+  {
+    "id": "real07",
+    "region": [
+      0.512,
+      0.22,
+      0.729,
+      0.82
+    ],
+    "target_inside": true,
+    "ms": 372.7225000038743
+  },
+  {
+    "id": "real08",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 823.091199999908
+  },
+  {
+    "id": "real09",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 314.48130001081154
+  },
+  {
+    "id": "real10",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 318.40599997667596
+  },
+  {
+    "id": "real11",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 324.62550001218915
+  },
+  {
+    "id": "real12",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 324.2884000064805
+  },
+  {
+    "id": "real13",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 318.1689000048209
+  },
+  {
+    "id": "real14",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 324.35320000513457
+  },
+  {
+    "id": "real15",
+    "region": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "target_inside": true,
+    "ms": 328.13869998790324
+  },
+  {
+    "id": "real17",
+    "region": [
+      0.05,
+      0.037,
+      0.8,
+      0.7
+    ],
+    "target_inside": true,
+    "ms": 785.7610000064597
+  }
+]

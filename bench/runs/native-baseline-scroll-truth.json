@@ -1,0 +1,29 @@
+{
+  "scenario": 1,
+  "completed": true,
+  "events": [
+    {
+      "event": "focus_project_code",
+      "value": null,
+      "time": "2026-11-04T09:11:48.6280840Z"
+    },
+    {
+      "event": "approve",
+      "value": "R14",
+      "time": "2026-11-04T09:12:30.0469129Z"
+    }
+  ],
+  "steps": [
+    {
+      "do": "Scroll down in the records pane until Approve R14 is visible."
+    },
+    {
+      "do": "Click Approve R14.",
+      "expect": "The status says COMPLETE."
+    }
+  ],
+  "elapsed_ms": 42643.7136,
+  "project_code": null,
+  "previews": null,
+  "modal_open": false
+}

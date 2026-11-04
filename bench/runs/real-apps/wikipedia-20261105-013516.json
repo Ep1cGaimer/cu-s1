@@ -1,0 +1,41 @@
+{
+ "task": "wikipedia",
+ "hwnd": 29886270,
+ "steps": [
+  {
+   "do": "Click the Search Wikipedia text box"
+  },
+  {
+   "do": "Type: Alan Turing\n",
+   "expect": "The Wikipedia article titled Alan Turing is open"
+  },
+  {
+   "do": "Click the Legacy link in the Contents sidebar",
+   "expect": "A section heading named Legacy is visible"
+  }
+ ],
+ "wall_ms": 177,
+ "summary": {
+  "ok": false,
+  "completed": 0,
+  "total": 3,
+  "handback": "step 0 ('Click the Search Wikipedia text box') ended with error: RuntimeError: Target must be fully visible on connected displays",
+  "total_ms": 174,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Click the Search Wikipedia text box",
+    "status": "error",
+    "action": "",
+    "decide_ms": 0.0,
+    "act_ms": 0.0,
+    "verify_ms": 0.0,
+    "attempts": 1,
+    "note": "RuntimeError: Target must be fully visible on connected displays",
+    "verified": false,
+    "check_reply": "",
+    "active_region": null
+   }
+  ]
+ }
+}

@@ -1,0 +1,161 @@
+{
+  "model": "qwen3-vl:2b-instruct",
+  "rows": [
+    {
+      "id": "case00",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 8086.030999984359
+    },
+    {
+      "id": "case03",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 494.5573000004515
+    },
+    {
+      "id": "case06",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 491.94700000225566
+    },
+    {
+      "id": "case09",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 480.01769999973476
+    },
+    {
+      "id": "case12",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 485.9162000066135
+    },
+    {
+      "id": "case15",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 482.2219999914523
+    },
+    {
+      "id": "case18",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 488.7577000190504
+    },
+    {
+      "id": "real01",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 526.4176999917254
+    },
+    {
+      "id": "real05",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 97.85059999558143
+    },
+    {
+      "id": "real08",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 521.5303000004496
+    },
+    {
+      "id": "real11",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 91.91020001890138
+    },
+    {
+      "id": "real14",
+      "present": true,
+      "expected_present": true,
+      "correct": true,
+      "ms": 91.6715000057593
+    },
+    {
+      "id": "absent00",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 109.86580001190305
+    },
+    {
+      "id": "absent01",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 491.9366000103764
+    },
+    {
+      "id": "absent02",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 486.9341000157874
+    },
+    {
+      "id": "absent03",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 112.05640001571737
+    },
+    {
+      "id": "absent04",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 480.77290001674555
+    },
+    {
+      "id": "absent05",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 487.7228999976069
+    },
+    {
+      "id": "absent06",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 112.368800007971
+    },
+    {
+      "id": "absent07",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 484.7299999964889
+    },
+    {
+      "id": "absent08",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 486.4767000253778
+    },
+    {
+      "id": "absent09",
+      "present": false,
+      "expected_present": false,
+      "correct": true,
+      "ms": 107.03869999269955
+    }
+  ],
+  "accuracy": 1.0,
+  "median_ms": 485.3231000015512
+}

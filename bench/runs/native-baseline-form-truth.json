@@ -1,0 +1,45 @@
+{
+  "scenario": 0,
+  "completed": true,
+  "events": [
+    {
+      "event": "focus_project_code",
+      "value": null,
+      "time": "2026-11-04T09:11:28.7399397Z"
+    },
+    {
+      "event": "project_code_changed",
+      "value": "NOVA-82",
+      "time": "2026-11-04T09:11:28.7625088Z"
+    },
+    {
+      "event": "enable_previews",
+      "value": true,
+      "time": "2026-11-04T09:11:38.3942232Z"
+    },
+    {
+      "event": "commit",
+      "value": true,
+      "time": "2026-11-04T09:11:47.4108306Z"
+    }
+  ],
+  "steps": [
+    {
+      "do": "Click the Project code text field."
+    },
+    {
+      "do": "Type: NOVA-82"
+    },
+    {
+      "do": "Check Enable previews."
+    },
+    {
+      "do": "Click Commit.",
+      "expect": "The status says COMPLETE."
+    }
+  ],
+  "elapsed_ms": 45684.677200000006,
+  "project_code": "NOVA-82",
+  "previews": true,
+  "modal_open": false
+}

@@ -1,0 +1,215 @@
+{
+ "task": "calculator_visual",
+ "hwnd": 20514852,
+ "steps": [
+  {
+   "do": "Click the 4 button"
+  },
+  {
+   "do": "Click the 2 button"
+  },
+  {
+   "do": "Click the 5 button"
+  },
+  {
+   "do": "Click the 0 button"
+  },
+  {
+   "do": "Click the multiply button"
+  },
+  {
+   "do": "Click the 1 button"
+  },
+  {
+   "do": "Click the 8 button"
+  },
+  {
+   "do": "Click the percent button"
+  },
+  {
+   "do": "Click the equals button",
+   "expect": "The calculator display shows 765"
+  }
+ ],
+ "wall_ms": 14444,
+ "summary": {
+  "ok": true,
+  "completed": 9,
+  "total": 9,
+  "handback": null,
+  "total_ms": 14434,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Click the 4 button",
+    "status": "ok",
+    "action": "click(0.134,0.744)",
+    "decide_ms": 2984.2834000010043,
+    "act_ms": 6.584800023119897,
+    "verify_ms": 565.642499976093,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 1,
+    "do": "Click the 2 button",
+    "status": "ok",
+    "action": "click(0.384,0.836)",
+    "decide_ms": 653.9130000164732,
+    "act_ms": 7.876999996369705,
+    "verify_ms": 563.7401999847498,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 2,
+    "do": "Click the 5 button",
+    "status": "ok",
+    "action": "click(0.384,0.744)",
+    "decide_ms": 661.2256000225898,
+    "act_ms": 0.8789999992586672,
+    "verify_ms": 563.4995000145864,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 3,
+    "do": "Click the 0 button",
+    "status": "ok",
+    "action": "click(0.384,0.941)",
+    "decide_ms": 660.1455000054557,
+    "act_ms": 7.863599981646985,
+    "verify_ms": 561.4054000179749,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 4,
+    "do": "Click the multiply button",
+    "status": "ok",
+    "action": "click(0.858,0.645)",
+    "decide_ms": 640.0821999995969,
+    "act_ms": 1.4947000017855316,
+    "verify_ms": 585.4187999793794,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 5,
+    "do": "Click the 1 button",
+    "status": "ok",
+    "action": "click(0.137,0.836)",
+    "decide_ms": 661.8195000046398,
+    "act_ms": 1.9879000028595328,
+    "verify_ms": 558.0881999921985,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 6,
+    "do": "Click the 8 button",
+    "status": "ok",
+    "action": "click(0.384,0.645)",
+    "decide_ms": 644.3980000040028,
+    "act_ms": 4.0754000074230134,
+    "verify_ms": 566.3625000452157,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 7,
+    "do": "Click the percent button",
+    "status": "ok",
+    "action": "click(0.131,0.448)",
+    "decide_ms": 637.2827000159305,
+    "act_ms": 1.246999978320673,
+    "verify_ms": 567.4636999610811,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 8,
+    "do": "Click the equals button",
+    "status": "ok",
+    "action": "click(0.854,0.930)",
+    "decide_ms": 659.5666999928653,
+    "act_ms": 7.765399990603328,
+    "verify_ms": 1098.1720999989193,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ }
+}

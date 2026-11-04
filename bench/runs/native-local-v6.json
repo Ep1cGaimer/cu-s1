@@ -1,0 +1,615 @@
+{
+  "surface": "native",
+  "model": "qwen3-vl:2b-instruct",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "source_sha256": {
+    "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+    "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+    "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+    "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+  },
+  "warmup_ms": 12562.76619998971,
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "wall_ms": 8174.542199994903,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 8155,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Project code text field.",
+            "status": "ok",
+            "action": "click(0.210,0.250)",
+            "decide_ms": 2864.4102000107523,
+            "act_ms": 10.544300021138042,
+            "verify_ms": 956.3666000030935,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Type: NOVA-82",
+            "status": "ok",
+            "action": "type('NOVA-82')",
+            "decide_ms": 0.0,
+            "act_ms": 7.470700016710907,
+            "verify_ms": 257.574300019769,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": null
+          },
+          {
+            "i": 2,
+            "do": "Check Enable previews.",
+            "status": "ok",
+            "action": "click(0.068,0.348)",
+            "decide_ms": 667.9785000160336,
+            "act_ms": 8.826400007819757,
+            "verify_ms": 1031.2690999708138,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 3,
+            "do": "Click Commit.",
+            "status": "ok",
+            "action": "click(0.137,0.475)",
+            "decide_ms": 673.5435999871697,
+            "act_ms": 12.745299987727776,
+            "verify_ms": 1421.7006000108086,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T12:54:50.5310693Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "N",
+          "time": "2026-11-04T12:54:51.2199026Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NO",
+          "time": "2026-11-04T12:54:51.2214137Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOV",
+          "time": "2026-11-04T12:54:51.2224131Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA",
+          "time": "2026-11-04T12:54:51.2246471Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-",
+          "time": "2026-11-04T12:54:51.2257246Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-8",
+          "time": "2026-11-04T12:54:51.2272482Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-82",
+          "time": "2026-11-04T12:54:51.2292523Z"
+        },
+        {
+          "event": "enable_previews",
+          "value": true,
+          "time": "2026-11-04T12:54:52.5541948Z"
+        },
+        {
+          "event": "commit",
+          "value": true,
+          "time": "2026-11-04T12:54:54.3081800Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "wall_ms": 3621.0446000040974,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 3609,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down in the records pane until Approve R14 is visible.",
+            "status": "ok",
+            "action": "scroll(-6)",
+            "decide_ms": 709.8426000156906,
+            "act_ms": 1.9909999973606318,
+            "verify_ms": 584.7062999673653,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click Approve R14.",
+            "status": "ok",
+            "action": "click(0.538,0.767)",
+            "decide_ms": 679.5129000092857,
+            "act_ms": 9.143299976130947,
+            "verify_ms": 1565.695900004357,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T12:54:55.4014598Z"
+        },
+        {
+          "event": "approve",
+          "value": "R14",
+          "time": "2026-11-04T12:54:58.2902173Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "wall_ms": 4866.31790001411,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 4855,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review details.",
+            "status": "ok",
+            "action": "click(0.155,0.285)",
+            "decide_ms": 656.1166000028607,
+            "act_ms": 10.072999983094633,
+            "verify_ms": 732.2128000087105,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Check I reviewed the preview.",
+            "status": "ok",
+            "action": "click(0.087,0.265)",
+            "decide_ms": 674.7789999935776,
+            "act_ms": 6.5799999865703285,
+            "verify_ms": 565.567599987844,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Confirm.",
+            "status": "ok",
+            "action": "click(0.228,0.588)",
+            "decide_ms": 672.9370999964885,
+            "act_ms": 8.906800008844584,
+            "verify_ms": 1441.759599983925,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "review_details",
+          "value": null,
+          "time": "2026-11-04T12:55:00.8669516Z"
+        },
+        {
+          "event": "reviewed_preview",
+          "value": true,
+          "time": "2026-11-04T12:55:02.3429407Z"
+        },
+        {
+          "event": "confirm",
+          "value": true,
+          "time": "2026-11-04T12:55:03.6195855Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 0,
+      "repeat": 1,
+      "wall_ms": 4557.524200004991,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 4548,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the Project code text field.",
+            "status": "ok",
+            "action": "click(0.200,0.250)",
+            "decide_ms": 288.6395000095945,
+            "act_ms": 9.74020001012832,
+            "verify_ms": 884.884500032058,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Type: NOVA-82",
+            "status": "ok",
+            "action": "type('NOVA-82')",
+            "decide_ms": 0.0,
+            "act_ms": 19.76480000303127,
+            "verify_ms": 245.91199998394586,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": null
+          },
+          {
+            "i": 2,
+            "do": "Check Enable previews.",
+            "status": "ok",
+            "action": "click(0.071,0.349)",
+            "decide_ms": 270.05789999384433,
+            "act_ms": 13.065800012554973,
+            "verify_ms": 974.97049998492,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 3,
+            "do": "Click Commit.",
+            "status": "ok",
+            "action": "click(0.137,0.477)",
+            "decide_ms": 651.6759999794886,
+            "act_ms": 7.823400024790317,
+            "verify_ms": 1065.0265999720432,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T12:55:05.7352608Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "N",
+          "time": "2026-11-04T12:55:06.3609142Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NO",
+          "time": "2026-11-04T12:55:06.3659084Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOV",
+          "time": "2026-11-04T12:55:06.3694032Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA",
+          "time": "2026-11-04T12:55:06.3739172Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-",
+          "time": "2026-11-04T12:55:06.3759814Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-8",
+          "time": "2026-11-04T12:55:06.3785127Z"
+        },
+        {
+          "event": "project_code_changed",
+          "value": "NOVA-82",
+          "time": "2026-11-04T12:55:06.3805311Z"
+        },
+        {
+          "event": "enable_previews",
+          "value": true,
+          "time": "2026-11-04T12:55:07.2949796Z"
+        },
+        {
+          "event": "commit",
+          "value": true,
+          "time": "2026-11-04T12:55:08.9070988Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "wall_ms": 2747.285399993416,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 2736,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down in the records pane until Approve R14 is visible.",
+            "status": "ok",
+            "action": "scroll(-6)",
+            "decide_ms": 337.642099999357,
+            "act_ms": 4.476900008739904,
+            "verify_ms": 540.8121999935247,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click Approve R14.",
+            "status": "ok",
+            "action": "click(0.544,0.767)",
+            "decide_ms": 282.38439999404363,
+            "act_ms": 7.553500006906688,
+            "verify_ms": 1503.8567000010516,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "focus_project_code",
+          "value": null,
+          "time": "2026-11-04T12:55:09.6855178Z"
+        },
+        {
+          "event": "approve",
+          "value": "R14",
+          "time": "2026-11-04T12:55:11.7089686Z"
+        }
+      ],
+      "modal_open": false
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "wall_ms": 3634.9451999994926,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 3625,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click Review details.",
+            "status": "ok",
+            "action": "click(0.155,0.288)",
+            "decide_ms": 297.63180000009015,
+            "act_ms": 6.335799989756197,
+            "verify_ms": 728.2834000361618,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Check I reviewed the preview.",
+            "status": "ok",
+            "action": "click(0.087,0.267)",
+            "decide_ms": 252.59779999032617,
+            "act_ms": 9.497399994870648,
+            "verify_ms": 531.2560999882407,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click Confirm.",
+            "status": "ok",
+            "action": "click(0.228,0.584)",
+            "decide_ms": 271.94360000430606,
+            "act_ms": 7.091100007528439,
+            "verify_ms": 1431.8535999918822,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "event": "review_details",
+          "value": null,
+          "time": "2026-11-04T12:55:13.8728111Z"
+        },
+        {
+          "event": "reviewed_preview",
+          "value": true,
+          "time": "2026-11-04T12:55:14.9057642Z"
+        },
+        {
+          "event": "confirm",
+          "value": true,
+          "time": "2026-11-04T12:55:15.7527792Z"
+        }
+      ],
+      "modal_open": false
+    }
+  ],
+  "timing_scope": "Actual stdio run_steps call; excludes fixture reset, activation, warmup, parent planning and delegation generation."
+}

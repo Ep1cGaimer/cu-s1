@@ -1,0 +1,513 @@
+{
+  "surface": "edge",
+  "model": "qwen3-vl:2b-instruct",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "source_sha256": {
+    "src\\cu_s1\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\cu_s1\\humanize.py": "56f95c6f398d5d60c058785639452499fc9e9ac3f5ca4b2845ee775aa8878a0d",
+    "src\\cu_s1\\runner.py": "1cd18e23bbd20404b6c042ac0cfef5f6367e33b1bec1cf7da49fcbef9bc4158d",
+    "src\\cu_s1\\screen.py": "18dcdfadda30de32f55423a945d866d4b489a914f1c1650c51876ae4e7d2d8c3",
+    "src\\cu_s1\\server.py": "1f45312abbed5df87f0ea49c2aa99d787f4f27bd573ad466c7b5d5ba23f8fcb0",
+    "src\\cu_s1\\verify.py": "e9351b6fea265d8f1579c314ef6b967098955d9c68f627bfffaee08205d68aff",
+    "src\\cu_s1\\vlm.py": "55680c749741f30521a558632951fa78808a07828bee3436dbae206e218a2951",
+    "src\\cu_s1\\window.py": "f77848686a975e637ccae4c0d3f1fe98fbf260aa77f6c910b334daf2d9ca63b9"
+  },
+  "warmup_ms": 3338.8870999915525,
+  "runs": [
+    {
+      "scenario": 0,
+      "repeat": 0,
+      "wall_ms": 9002.740900003118,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 8959,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the image of a blue line rising from left to right.",
+            "status": "ok",
+            "action": "click(0.185,0.315)",
+            "decide_ms": 2594.6961999870837,
+            "act_ms": 7.096600020304322,
+            "verify_ms": 1012.6102000067476,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Label text field.",
+            "status": "ok",
+            "action": "click(0.285,0.467)",
+            "decide_ms": 764.0225999930408,
+            "act_ms": 8.613200014224276,
+            "verify_ms": 937.8233999887016,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Type: OAK-19",
+            "status": "ok",
+            "action": "type('OAK-19')",
+            "decide_ms": 0.0,
+            "act_ms": 10.923599998932332,
+            "verify_ms": 619.6625999873504,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": null
+          },
+          {
+            "i": 3,
+            "do": "Click 'Apply label'.",
+            "status": "ok",
+            "action": "click(0.129,0.557)",
+            "decide_ms": 803.6615999881178,
+            "act_ms": 13.845100009348243,
+            "verify_ms": 1794.95529999258,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 30,
+          "event": "select",
+          "value": "rise"
+        },
+        {
+          "generation": 30,
+          "event": "apply",
+          "selected": "rise",
+          "text": "OAK-19"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 0,
+      "wall_ms": 3426.608700014185,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 3382,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down to the bottom of this page.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 383.47920001251623,
+            "act_ms": 29.927499999757856,
+            "verify_ms": 612.7858000108972,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click 'Open ticket Q7'.",
+            "status": "ok",
+            "action": "click(0.124,0.834)",
+            "decide_ms": 772.1527999965474,
+            "act_ms": 13.119899987941608,
+            "verify_ms": 1372.4647000199184,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 31,
+          "event": "open_ticket"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 0,
+      "wall_ms": 6318.415999994613,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 6277,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click 'Review settings'.",
+            "status": "ok",
+            "action": "click(0.164,0.367)",
+            "decide_ms": 823.2541999896057,
+            "act_ms": 9.632300003431737,
+            "verify_ms": 662.1931999980006,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click the checkbox 'Enable image previews'.",
+            "status": "ok",
+            "action": "click(0.310,0.520)",
+            "decide_ms": 786.5987000113819,
+            "act_ms": 10.946499998681247,
+            "verify_ms": 1303.8241999747697,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.267,
+              0.375,
+              0.733,
+              0.665
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click 'Confirm settings'.",
+            "status": "ok",
+            "action": "click(0.375,0.595)",
+            "decide_ms": 979.0592000063043,
+            "act_ms": 10.298500012140721,
+            "verify_ms": 1364.110599970445,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.27,
+              0.375,
+              0.73,
+              0.665
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 32,
+          "event": "open_dialog"
+        },
+        {
+          "generation": 32,
+          "event": "confirm",
+          "checked": true
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 0,
+      "repeat": 1,
+      "wall_ms": 6667.604199989,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 4,
+        "total": 4,
+        "handback": null,
+        "total_ms": 6627,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click the image of a blue line rising from left to right.",
+            "status": "ok",
+            "action": "click(0.180,0.315)",
+            "decide_ms": 975.1812999893446,
+            "act_ms": 10.468499996932223,
+            "verify_ms": 716.8904000136536,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click inside the Label text field.",
+            "status": "ok",
+            "action": "click(0.285,0.468)",
+            "decide_ms": 782.6533000043128,
+            "act_ms": 12.51369999954477,
+            "verify_ms": 636.7703000141773,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Type: OAK-19",
+            "status": "ok",
+            "action": "type('OAK-19')",
+            "decide_ms": 0.0,
+            "act_ms": 7.775999984005466,
+            "verify_ms": 410.49280000152066,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": null
+          },
+          {
+            "i": 3,
+            "do": "Click 'Apply label'.",
+            "status": "ok",
+            "action": "click(0.129,0.557)",
+            "decide_ms": 863.8373000139836,
+            "act_ms": 11.231100012082607,
+            "verify_ms": 1849.6372000081465,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 33,
+          "event": "select",
+          "value": "rise"
+        },
+        {
+          "generation": 33,
+          "event": "apply",
+          "selected": "rise",
+          "text": "OAK-19"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "wall_ms": 3085.997199988924,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 2,
+        "total": 2,
+        "handback": null,
+        "total_ms": 3041,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Scroll down to the bottom of this page.",
+            "status": "ok",
+            "action": "scroll(-100)",
+            "decide_ms": 396.58080000663176,
+            "act_ms": 27.474400005303323,
+            "verify_ms": 720.5375999619719,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click 'Open ticket Q7'.",
+            "status": "ok",
+            "action": "click(0.124,0.834)",
+            "decide_ms": 336.9036999938544,
+            "act_ms": 9.928499988745898,
+            "verify_ms": 1362.1423000004143,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 34,
+          "event": "open_ticket"
+        }
+      ],
+      "modal_open": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "wall_ms": 5139.709599985508,
+      "actual_success": true,
+      "claimed_success": true,
+      "summary": {
+        "ok": true,
+        "completed": 3,
+        "total": 3,
+        "handback": null,
+        "total_ms": 5102,
+        "steps": [
+          {
+            "i": 0,
+            "do": "Click 'Review settings'.",
+            "status": "ok",
+            "action": "click(0.164,0.367)",
+            "decide_ms": 335.8439000148792,
+            "act_ms": 10.129200003575534,
+            "verify_ms": 672.1522999869194,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.0,
+              0.0,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "i": 1,
+            "do": "Click the checkbox 'Enable image previews'.",
+            "status": "ok",
+            "action": "click(0.310,0.520)",
+            "decide_ms": 796.9041999895126,
+            "act_ms": 13.326199987204745,
+            "verify_ms": 772.8963000117801,
+            "attempts": 1,
+            "note": "",
+            "verified": false,
+            "check_reply": "",
+            "active_region": [
+              0.267,
+              0.375,
+              0.733,
+              0.665
+            ]
+          },
+          {
+            "i": 2,
+            "do": "Click 'Confirm settings'.",
+            "status": "ok",
+            "action": "click(0.377,0.595)",
+            "decide_ms": 788.4869999834336,
+            "act_ms": 11.265799985267222,
+            "verify_ms": 1385.3035000211094,
+            "attempts": 1,
+            "note": "",
+            "verified": true,
+            "check_reply": "yes",
+            "active_region": [
+              0.267,
+              0.375,
+              0.733,
+              0.665
+            ]
+          }
+        ]
+      },
+      "events": [
+        {
+          "generation": 35,
+          "event": "open_dialog"
+        },
+        {
+          "generation": 35,
+          "event": "confirm",
+          "checked": true
+        }
+      ],
+      "modal_open": null
+    }
+  ],
+  "timing_scope": "Actual stdio run_steps call; excludes fixture reset, activation, warmup, parent planning and delegation generation."
+}

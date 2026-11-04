@@ -1,0 +1,217 @@
+{
+ "scene": "calculator",
+ "target_hwnd": 12781768,
+ "steps": [
+  {
+   "do": "Click the 4 button"
+  },
+  {
+   "do": "Click the 2 button"
+  },
+  {
+   "do": "Click the 5 button"
+  },
+  {
+   "do": "Click the 0 button"
+  },
+  {
+   "do": "Click the multiply button"
+  },
+  {
+   "do": "Click the 1 button"
+  },
+  {
+   "do": "Click the 8 button"
+  },
+  {
+   "do": "Click the percent button"
+  },
+  {
+   "do": "Click the equals button",
+   "expect": "The calculator display shows 765"
+  }
+ ],
+ "is_error": false,
+ "wall_ms": 16185,
+ "summary": {
+  "ok": true,
+  "completed": 9,
+  "total": 9,
+  "handback": null,
+  "total_ms": 15981,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Click the 4 button",
+    "status": "ok",
+    "action": "click(0.092,0.725)",
+    "decide_ms": 3097.158999997191,
+    "act_ms": 10.60229999711737,
+    "verify_ms": 637.6605000114068,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 1,
+    "do": "Click the 2 button",
+    "status": "ok",
+    "action": "click(0.249,0.831)",
+    "decide_ms": 731.7008999816608,
+    "act_ms": 1.0467999964021146,
+    "verify_ms": 676.5199000074062,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 2,
+    "do": "Click the 5 button",
+    "status": "ok",
+    "action": "click(0.246,0.725)",
+    "decide_ms": 723.787099996116,
+    "act_ms": 16.70500001637265,
+    "verify_ms": 709.6148999989964,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 3,
+    "do": "Click the 0 button",
+    "status": "ok",
+    "action": "click(0.249,0.938)",
+    "decide_ms": 735.5175999982748,
+    "act_ms": 2.0183000015094876,
+    "verify_ms": 650.2810000383761,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 4,
+    "do": "Click the multiply button",
+    "status": "ok",
+    "action": "click(0.567,0.620)",
+    "decide_ms": 735.9760000254028,
+    "act_ms": 16.080999979749322,
+    "verify_ms": 635.494399961317,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 5,
+    "do": "Click the 1 button",
+    "status": "ok",
+    "action": "click(0.087,0.831)",
+    "decide_ms": 736.2782999989577,
+    "act_ms": 5.748300027335063,
+    "verify_ms": 654.4639999920037,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 6,
+    "do": "Click the 8 button",
+    "status": "ok",
+    "action": "click(0.255,0.625)",
+    "decide_ms": 722.2255999804474,
+    "act_ms": 7.410099991830066,
+    "verify_ms": 711.68409998063,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 7,
+    "do": "Click the percent button",
+    "status": "ok",
+    "action": "click(0.087,0.408)",
+    "decide_ms": 734.5729999942705,
+    "act_ms": 4.3963000061921775,
+    "verify_ms": 698.3782000024803,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 8,
+    "do": "Click the equals button",
+    "status": "ok",
+    "action": "click(0.579,0.935)",
+    "decide_ms": 741.8981000082567,
+    "act_ms": 6.150799978058785,
+    "verify_ms": 1278.4871999756433,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ },
+ "video": "C:\\cu-s1-demo\\video\\calculator-014902.mp4"
+}

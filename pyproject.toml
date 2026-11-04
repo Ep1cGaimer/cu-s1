@@ -1,0 +1,25 @@
+[project]
+name = "cu-s1"
+version = "0.2.0"
+description = "System 1 computer-use MCP: a light local VLM executes chains of instructions from a big agent"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "mcp>=1.2,<2",
+    "pydantic>=2.7,<3",
+    "mss>=9.0",
+    "pillow>=10.0",
+    "httpx>=0.27",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+cu-s1 = "cu_s1.app:main"
+cu-s1-mcp = "cu_s1.bridge:main"
+cu-s1-doctor = "cu_s1.doctor:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cu_s1"]

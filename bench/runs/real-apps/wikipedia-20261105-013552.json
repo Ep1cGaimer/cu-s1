@@ -1,0 +1,79 @@
+{
+ "task": "wikipedia",
+ "hwnd": 3080288,
+ "steps": [
+  {
+   "do": "Click the Search Wikipedia text box"
+  },
+  {
+   "do": "Type: Alan Turing\n",
+   "expect": "The Wikipedia article titled Alan Turing is open"
+  },
+  {
+   "do": "Click the Legacy link in the Contents sidebar",
+   "expect": "A section heading named Legacy is visible"
+  }
+ ],
+ "wall_ms": 8749,
+ "summary": {
+  "ok": true,
+  "completed": 3,
+  "total": 3,
+  "handback": null,
+  "total_ms": 8702,
+  "steps": [
+   {
+    "i": 0,
+    "do": "Click the Search Wikipedia text box",
+    "status": "ok",
+    "action": "click(0.305,0.152)",
+    "decide_ms": 3007.1800999867264,
+    "act_ms": 8.97560000885278,
+    "verify_ms": 838.5141000035219,
+    "attempts": 1,
+    "note": "",
+    "verified": false,
+    "check_reply": "",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   },
+   {
+    "i": 1,
+    "do": "Type: Alan Turing\n",
+    "status": "ok",
+    "action": "type('Alan Turing\\n')",
+    "decide_ms": 0.0,
+    "act_ms": 7.409700017888099,
+    "verify_ms": 2265.754599997308,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": null
+   },
+   {
+    "i": 2,
+    "do": "Click the Legacy link in the Contents sidebar",
+    "status": "ok",
+    "action": "click(0.100,0.557)",
+    "decide_ms": 760.0955000089016,
+    "act_ms": 3.3540999866090715,
+    "verify_ms": 1537.6038999820594,
+    "attempts": 1,
+    "note": "",
+    "verified": true,
+    "check_reply": "yes",
+    "active_region": [
+     0.0,
+     0.0,
+     1.0,
+     1.0
+    ]
+   }
+  ]
+ }
+}
